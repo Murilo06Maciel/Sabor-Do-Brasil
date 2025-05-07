@@ -1,26 +1,29 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const btnCadastrar = document.getElementById("btn-cadastrar");
+document.getElementById("form-cadastro").addEventListener("submit", function (event) {
+    event.preventDefault();
 
-    btnCadastrar?.addEventListener("click", () => {
-        const nickname = document.getElementById("cad-nickname").value.trim();
-        const senha = document.getElementById("cad-senha").value;
+    const nome = document.getElementById("nome-cadastro").value;
+    const email = document.getElementById("email-cadastro").value;
+    const nickname = document.getElementById("nickname-cadastro").value;
+    const senha = document.getElementById("senha-cadastro").value;
 
-        if (!nickname || !senha) {
-            alert("Preencha todos os campos.");
-            return;
+    fetch("http://localhost/seu_projeto/cadastrar_usuario.php", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ nome, email, nickname, senha })
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.success) {
+            alert("Usuário cadastrado com sucesso!");
+            window.location.href = "index.html";
+        } else {
+            document.getElementById("mensagem-erro-cadastro").innerText = data.message;
         }
-
-        const usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
-
-        if (usuarios.some(u => u.nickname === nickname)) {
-            alert("Nickname já cadastrado.");
-            return;
-        }
-
-        const novoUsuario = { nickname, senha };
-        usuarios.push(novoUsuario);
-        localStorage.setItem("usuarios", JSON.stringify(usuarios));
-        alert("Cadastro realizado com sucesso!");
-        window.location.href = "index.html";
+    })
+    .catch(error => {
+        console.error("Erro:", error);
+        document.getElementById("mensagem-erro-cadastro").innerText = "Erro ao cadastrar usuário.";
     });
 });
