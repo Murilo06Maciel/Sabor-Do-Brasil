@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "LXfGPrGSrhw5ShzPZKWJ4BYTYGtLg3axx/Cuq1OVl1I=",
+  "Source": "Sabor-Do-Brasil",
+  "BasePath": "_content/Sabor-Do-Brasil",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Sabor-Do-Brasil\\wwwroot",
+      "Source": "Sabor-Do-Brasil",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\",
+      "BasePath": "_content/Sabor-Do-Brasil",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\index.html",
+      "SourceId": "Sabor-Do-Brasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\",
+      "BasePath": "_content/Sabor-Do-Brasil",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uud1i9gknm",
+      "Integrity": "mu1UEVPj85zAtM/R0rGx0smfZgdCBVFHUF5+j17wgHA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mu1UEVPj85zAtM/R0rGx0smfZgdCBVFHUF5+j17wgHA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 16:55:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mu1UEVPj85zAtM/R0rGx0smfZgdCBVFHUF5+j17wgHA="
+        }
+      ]
+    },
+    {
+      "Route": "index.uud1i9gknm.html",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mu1UEVPj85zAtM/R0rGx0smfZgdCBVFHUF5+j17wgHA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 16:55:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uud1i9gknm"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mu1UEVPj85zAtM/R0rGx0smfZgdCBVFHUF5+j17wgHA="
+        }
+      ]
+    }
+  ]
+}

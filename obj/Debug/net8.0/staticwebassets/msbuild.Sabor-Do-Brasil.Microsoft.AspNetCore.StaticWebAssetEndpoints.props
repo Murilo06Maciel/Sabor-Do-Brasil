@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Sabor-Do-Brasil/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mu1UEVPj85zAtM/R0rGx0smfZgdCBVFHUF5\u002Bj17wgHA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022mu1UEVPj85zAtM/R0rGx0smfZgdCBVFHUF5\u002Bj17wgHA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 07 May 2025 16:55:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Sabor-Do-Brasil/index.uud1i9gknm.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uud1i9gknm"},{"Name":"integrity","Value":"sha256-mu1UEVPj85zAtM/R0rGx0smfZgdCBVFHUF5\u002Bj17wgHA="},{"Name":"label","Value":"_content/Sabor-Do-Brasil/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022mu1UEVPj85zAtM/R0rGx0smfZgdCBVFHUF5\u002Bj17wgHA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 07 May 2025 16:55:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
