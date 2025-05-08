@@ -1,22 +1,22 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\alterar_usuario.html'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\alterar usuário.html'))">
       <SourceType>Package</SourceType>
       <SourceId>Sabor-Do-Brasil</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Sabor-Do-Brasil</BasePath>
-      <RelativePath>alterar_usuario.html</RelativePath>
+      <RelativePath>alterar usuário.html</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dd5f7ogdj3</Fingerprint>
-      <Integrity>DzBZ+nPtrWStxSKJbL98hGxb4q368lSFkj739KGiQnE=</Integrity>
+      <Fingerprint>9s0dswk5og</Fingerprint>
+      <Integrity>xx5I9LTzRxLVHKC7xWxG6Q6g6AHZAIQRhmK0rJHe/UI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\alterar_usuario.html'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\alterar usuário.html'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cadastro.html'))">
       <SourceType>Package</SourceType>
@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3r3i9n63sp</Fingerprint>
-      <Integrity>f2i9+HNzrtwTfts+uDjeW2TyL6GirPhTBdhpGLZ1ig8=</Integrity>
+      <Fingerprint>959s7ibcod</Fingerprint>
+      <Integrity>TbxzxkGc805lOoI7Ksp8CsZxZ4jso7qoEk0lHW/DvFM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cadastro.html'))</OriginalItemSpec>
@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xvrezhkcn4</Fingerprint>
-      <Integrity>ras/1ZLP/9IjDnbiKEnN0klIo2ItJS9iEtv1aIIXDA0=</Integrity>
+      <Fingerprint>yxxn6ji0aq</Fingerprint>
+      <Integrity>auJJv9SVnyibmxtwzvmG688GvSzipvum9TcAdpSHFkI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</OriginalItemSpec>
@@ -372,8 +372,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vzs3sbj38p</Fingerprint>
-      <Integrity>dbLVpvwdYHfbct4yJo6QE2RLiOkH/RNMy/cpjSeQHOg=</Integrity>
+      <Fingerprint>bx0i32ge9i</Fingerprint>
+      <Integrity>0X9nMIqIQaL6PzLEy8v2ThMb4UQDuJhVHKrKkQSh82U=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
@@ -390,8 +390,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>27h9foqjbm</Fingerprint>
-      <Integrity>shGg8f48o66TMvKekDf6xCjWK/U6RB1+6mzE/nXUtd0=</Integrity>
+      <Fingerprint>xuxi6na4ff</Fingerprint>
+      <Integrity>6Z2WK7xtYKcMY1/4MJ0ibKDE7I7GiAZ3i9hlOkLHzFE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\cadastro.js'))</OriginalItemSpec>

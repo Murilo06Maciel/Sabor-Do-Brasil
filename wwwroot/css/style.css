@@ -356,3 +356,10 @@ footer {
 }
 
 /* ... (outros estilos permanecem iguais) */
+
+.titulo-cadastro {
+    font-family: 'Arial', sans-serif; /* Altere para a fonte desejada */
+    font-size: 2rem;
+    font-weight: bold;
+    color: #D97014; /* Cor personalizada */
+}
