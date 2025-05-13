@@ -17,5 +17,6 @@ namespace Sabor_Do_Brasil.Models
         
         [Required]
         public string Senha { get; set; }
+
     }
 }

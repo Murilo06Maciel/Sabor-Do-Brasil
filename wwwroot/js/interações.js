@@ -1,48 +1,57 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const btnCurtir = document.getElementById("btn-curtir");
-    const btnDescurtir = document.getElementById("btn-descurtir");
-    const contadorCurtidas = document.getElementById("contador-curtidas");
-    const contadorDeslikes = document.getElementById("contador-deslikes");
-    const btnComentar = document.getElementById("btn-comentar");
-    const listaComentarios = document.getElementById("lista-comentarios");
-    const inputComentario = document.getElementById("input-comentario");
+    document.querySelectorAll('.publicacao').forEach(function(pub) {
+        const likeBtn = pub.querySelector('.like');
+        const dislikeBtn = pub.querySelector('.dislike');
+        const likesSpan = pub.querySelector('.likes');
+        const dislikesSpan = pub.querySelector('.dislikes');
+        const chatBtn = pub.querySelector('.comentarios');
+        const numComentariosSpan = pub.querySelector('.num-comentarios');
+        const comentarioContainer = pub.querySelector('.comentario-container');
+        const inputComentario = comentarioContainer.querySelector('input');
+        const btnComentar = comentarioContainer.querySelector('.btn-comentar');
+        const comentariosLista = comentarioContainer.querySelector('.comentarios-lista');
 
-    let curtidas = parseInt(localStorage.getItem("curtidas") || "0");
-    let deslikes = parseInt(localStorage.getItem("deslikes") || "0");
-    let comentarios = JSON.parse(localStorage.getItem("comentarios")) || [];
+        let likes = 0;
+        let dislikes = 0;
+        let comentarios = [];
+        let interacao = null; // null, 'like', 'dislike'
 
-    contadorCurtidas.textContent = curtidas;
-    contadorDeslikes.textContent = deslikes;
-    atualizarComentarios();
-
-    btnCurtir?.addEventListener("click", () => {
-        curtidas++;
-        localStorage.setItem("curtidas", curtidas);
-        contadorCurtidas.textContent = curtidas;
-    });
-
-    btnDescurtir?.addEventListener("click", () => {
-        deslikes++;
-        localStorage.setItem("deslikes", deslikes);
-        contadorDeslikes.textContent = deslikes;
-    });
-
-    btnComentar?.addEventListener("click", () => {
-        const texto = inputComentario.value.trim();
-        if (texto) {
-            comentarios.push(texto);
-            localStorage.setItem("comentarios", JSON.stringify(comentarios));
-            atualizarComentarios();
-            inputComentario.value = "";
-        }
-    });
-
-    function atualizarComentarios() {
-        listaComentarios.innerHTML = "";
-        comentarios.forEach(comentario => {
-            const li = document.createElement("li");
-            li.textContent = comentario;
-            listaComentarios.appendChild(li);
+        likeBtn.addEventListener('click', () => {
+            if (interacao === 'like') return; // já curtiu
+            if (interacao === 'dislike') {
+                dislikes--;
+                dislikesSpan.textContent = dislikes;
+            }
+            likes++;
+            likesSpan.textContent = likes;
+            interacao = 'like';
         });
-    }
+
+        dislikeBtn.addEventListener('click', () => {
+            if (interacao === 'dislike') return; // já deu dislike
+            if (interacao === 'like') {
+                likes--;
+                likesSpan.textContent = likes;
+            }
+            dislikes++;
+            dislikesSpan.textContent = dislikes;
+            interacao = 'dislike';
+        });
+
+        chatBtn.addEventListener('click', () => {
+            comentarioContainer.style.display = comentarioContainer.style.display === 'none' ? 'block' : 'none';
+        });
+
+        btnComentar.addEventListener('click', () => {
+            const texto = inputComentario.value.trim();
+            if (texto) {
+                comentarios.push(texto);
+                numComentariosSpan.textContent = comentarios.length;
+                const li = document.createElement('div');
+                li.textContent = texto;
+                comentariosLista.appendChild(li);
+                inputComentario.value = '';
+            }
+        });
+    });
 });
