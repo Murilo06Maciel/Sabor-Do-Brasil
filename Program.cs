@@ -1,8 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Sabor_Do_Brasil;
-using Sabor_Do_Brasil; // Adicione esta linha
 using Microsoft.AspNetCore.Cors;
-using BCrypt.Net; // Para hash de senha
+using BCrypt.Net;
 using System.Security.Cryptography;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,6 +21,12 @@ builder.Services.AddCors(options =>
               .AllowAnyHeader();
     });
 });
+
+// Configuração do logging (ADICIONADO AQUI)
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole(); // Log no console
+builder.Logging.AddDebug();   // Log no debug (Visual Studio Output)
+// builder.Logging.AddFile("Logs/myapp-{Date}.txt"); // Para logs em arquivo (instale o pacote Serilog.Extensions.Logging.File)
 
 var app = builder.Build();
 
@@ -46,14 +51,14 @@ app.MapPost("/api/cadastrar", async (AppDbContext db, Usuario usuario) =>
 
     // Cria hash da senha
     usuario.Senha = Convert.ToBase64String(
-    Rfc2898DeriveBytes.Pbkdf2(
-        password: usuario.Senha,
-        salt: RandomNumberGenerator.GetBytes(32), // Salt aleatório
-        iterations: 100_000, // Número de iterações
-        hashAlgorithm: HashAlgorithmName.SHA256,
-        outputLength: 32
-    )
-);
+        Rfc2898DeriveBytes.Pbkdf2(
+            password: usuario.Senha,
+            salt: RandomNumberGenerator.GetBytes(32),
+            iterations: 100_000,
+            hashAlgorithm: HashAlgorithmName.SHA256,
+            outputLength: 32
+        )
+    );
 
     // Salva no banco
     db.Usuarios.Add(usuario);
