@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using Sabor_Do_Brasil.Models;
+using Microsoft.AspNetCore.Mvc;
+using Sabor_Do_Brasil;
 
 namespace Sabor_Do_Brasil
 {

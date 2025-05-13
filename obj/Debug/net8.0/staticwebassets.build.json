@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "H6D+03nvsTTt4XKnKSUSFTyVa7/62ukISI4VYtnuBys=",
+  "Hash": "gaXztPcN8GnZgt/ObHCKEwU0Tl7Lvgsm9NXv4l2xgsU=",
   "Source": "Sabor-Do-Brasil",
   "BasePath": "_content/Sabor-Do-Brasil",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9s0dswk5og",
-      "Integrity": "xx5I9LTzRxLVHKC7xWxG6Q6g6AHZAIQRhmK0rJHe/UI=",
+      "Fingerprint": "lx1kj1qnjv",
+      "Integrity": "N8KhnRSD0MeFvBlOfkK9o/XUyRHBb3i+j22xh8bCZDY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\alterar usuário.html"
@@ -493,8 +493,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ox2sbufysp",
-      "Integrity": "JG/8Evb2hhftHylJdEdIdZgKYkJwjhQr/QCWuySHHM8=",
+      "Fingerprint": "6fhkrcvrp3",
+      "Integrity": "MvCKharI7DV8p3l5rCwAz5RKkGZpl9TEiuMjJgGTPLc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\interações.js"
@@ -565,51 +565,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "alterar usuário.9s0dswk5og.html",
-      "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\alterar usuário.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4349"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xx5I9LTzRxLVHKC7xWxG6Q6g6AHZAIQRhmK0rJHe/UI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 17:08:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9s0dswk5og"
-        },
-        {
-          "Name": "label",
-          "Value": "alterar usuário.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-xx5I9LTzRxLVHKC7xWxG6Q6g6AHZAIQRhmK0rJHe/UI="
-        }
-      ]
-    },
-    {
       "Route": "alterar usuário.html",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\alterar usuário.html",
       "Selectors": [],
@@ -620,7 +575,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4349"
+          "Value": "4568"
         },
         {
           "Name": "Content-Type",
@@ -628,11 +583,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xx5I9LTzRxLVHKC7xWxG6Q6g6AHZAIQRhmK0rJHe/UI=\""
+          "Value": "\"N8KhnRSD0MeFvBlOfkK9o/XUyRHBb3i+j22xh8bCZDY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 17:08:12 GMT"
+          "Value": "Tue, 13 May 2025 17:51:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -642,7 +597,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xx5I9LTzRxLVHKC7xWxG6Q6g6AHZAIQRhmK0rJHe/UI="
+          "Value": "sha256-N8KhnRSD0MeFvBlOfkK9o/XUyRHBb3i+j22xh8bCZDY="
+        }
+      ]
+    },
+    {
+      "Route": "alterar usuário.lx1kj1qnjv.html",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\alterar usuário.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4568"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N8KhnRSD0MeFvBlOfkK9o/XUyRHBb3i+j22xh8bCZDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 17:51:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lx1kj1qnjv"
+        },
+        {
+          "Name": "label",
+          "Value": "alterar usuário.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N8KhnRSD0MeFvBlOfkK9o/XUyRHBb3i+j22xh8bCZDY="
         }
       ]
     },
@@ -669,7 +669,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 18:12:00 GMT"
+          "Value": "Tue, 13 May 2025 19:29:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -714,7 +714,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 18:12:00 GMT"
+          "Value": "Tue, 13 May 2025 19:29:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2369,6 +2369,51 @@
       ]
     },
     {
+      "Route": "js/interações.6fhkrcvrp3.js",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\js\\interações.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2383"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MvCKharI7DV8p3l5rCwAz5RKkGZpl9TEiuMjJgGTPLc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 18:00:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6fhkrcvrp3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/interações.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MvCKharI7DV8p3l5rCwAz5RKkGZpl9TEiuMjJgGTPLc="
+        }
+      ]
+    },
+    {
       "Route": "js/interações.js",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\js\\interações.js",
       "Selectors": [],
@@ -2379,7 +2424,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1915"
+          "Value": "2383"
         },
         {
           "Name": "Content-Type",
@@ -2387,11 +2432,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JG/8Evb2hhftHylJdEdIdZgKYkJwjhQr/QCWuySHHM8=\""
+          "Value": "\"MvCKharI7DV8p3l5rCwAz5RKkGZpl9TEiuMjJgGTPLc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 17:24:43 GMT"
+          "Value": "Tue, 13 May 2025 18:00:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2401,52 +2446,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JG/8Evb2hhftHylJdEdIdZgKYkJwjhQr/QCWuySHHM8="
-        }
-      ]
-    },
-    {
-      "Route": "js/interações.ox2sbufysp.js",
-      "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\js\\interações.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1915"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JG/8Evb2hhftHylJdEdIdZgKYkJwjhQr/QCWuySHHM8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 17:24:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ox2sbufysp"
-        },
-        {
-          "Name": "label",
-          "Value": "js/interações.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-JG/8Evb2hhftHylJdEdIdZgKYkJwjhQr/QCWuySHHM8="
+          "Value": "sha256-MvCKharI7DV8p3l5rCwAz5RKkGZpl9TEiuMjJgGTPLc="
         }
       ]
     },

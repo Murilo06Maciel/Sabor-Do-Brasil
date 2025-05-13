@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Sabor_Do_Brasil;
-using Sabor_Do_Brasil.Models; // Adicione esta linha
+using Sabor_Do_Brasil; // Adicione esta linha
 using Microsoft.AspNetCore.Cors;
 using BCrypt.Net; // Para hash de senha
 using System.Security.Cryptography;

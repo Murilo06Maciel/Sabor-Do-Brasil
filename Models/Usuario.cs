@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Sabor_Do_Brasil.Models
+namespace Sabor_Do_Brasil
 {
     public class Usuario
     {

@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9s0dswk5og</Fingerprint>
-      <Integrity>xx5I9LTzRxLVHKC7xWxG6Q6g6AHZAIQRhmK0rJHe/UI=</Integrity>
+      <Fingerprint>lx1kj1qnjv</Fingerprint>
+      <Integrity>N8KhnRSD0MeFvBlOfkK9o/XUyRHBb3i+j22xh8bCZDY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\alterar usuário.html'))</OriginalItemSpec>
@@ -408,8 +408,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ox2sbufysp</Fingerprint>
-      <Integrity>JG/8Evb2hhftHylJdEdIdZgKYkJwjhQr/QCWuySHHM8=</Integrity>
+      <Fingerprint>6fhkrcvrp3</Fingerprint>
+      <Integrity>MvCKharI7DV8p3l5rCwAz5RKkGZpl9TEiuMjJgGTPLc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\interações.js'))</OriginalItemSpec>
