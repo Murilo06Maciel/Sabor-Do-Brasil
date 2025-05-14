@@ -19,11 +19,16 @@ namespace Sabor_Do_Brasil
             modelBuilder.Entity<Usuario>(entity =>
             {
                 entity.HasKey(e => e.Id);
+                entity.Property(e => e.NOME).IsRequired().HasMaxLength(255);
                 entity.Property(e => e.Email).IsRequired().HasMaxLength(100);
                 entity.HasIndex(e => e.Email).IsUnique();
                 entity.Property(e => e.Nickname).IsRequired().HasMaxLength(50);
                 entity.HasIndex(e => e.Nickname).IsUnique();
                 entity.Property(e => e.Senha).IsRequired().HasMaxLength(255);
+                entity.HasIndex(e => e.SENHA).IsUnique();
+                entity.HasIndex(e => e.FOTO).IsUnique();
+                entity.HasIndex(e => e.createdAt).IsUnique();
+                entity.HasIndex(e => e.updatedAt).IsUnique();
             });
         }
     }
