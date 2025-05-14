@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gaXztPcN8GnZgt/ObHCKEwU0Tl7Lvgsm9NXv4l2xgsU=",
+  "Hash": "8+/rQil6WeTBODHdnMKp5TxZVIMbIpde/zzv7a1RrQc=",
   "Source": "Sabor-Do-Brasil",
   "BasePath": "_content/Sabor-Do-Brasil",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\cadastro.html"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\Controllers\\UsuarioController.cs",
+      "SourceId": "Sabor-Do-Brasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\",
+      "BasePath": "_content/Sabor-Do-Brasil",
+      "RelativePath": "Controllers/UsuarioController#[.{fingerprint}]?.cs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Controllers\\UsuarioController.cs"
     },
     {
       "Identity": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\css\\alterar_usuario.css",
@@ -136,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qcy5m6a5w2",
-      "Integrity": "Kss94cpjNNsz1cOlzwkGnak4iEW+l36xPWa1CI7ECHg=",
+      "Fingerprint": "7s0c91qy98",
+      "Integrity": "9/vOl8T0WQ8Mb4amPvcrTkwWd9cga7Nl+hZcIDwjMRU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\chat.svg"
@@ -157,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bovgxzafeh",
-      "Integrity": "W5FcgQ+ew2Uhni4JYNqc4kA0y2Yv/g/vOsTALoKh5hY=",
+      "Fingerprint": "8qkjmlj21l",
+      "Integrity": "UBa/jynRh1T8dzuZjcMQHYoKwA0vz4FqiUDwVDPw9IY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\flecha_baixo_cheia.svg"
@@ -178,8 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dugdrejhck",
-      "Integrity": "hfmO2JLv2QYtwKhXFGdQRqaPvWIBTBjhIvS6XX1UAkI=",
+      "Fingerprint": "8dpy2ltvth",
+      "Integrity": "7PoazbzZLzlyn4sWyCvReK0h21fKrYyrZKhpMFpZWKM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\flecha_baixo_vazia.svg"
@@ -199,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "l9nsw604al",
-      "Integrity": "N6OASwLE+rP5MOQNNOsnRnk+bACRiBMdouR7JIRG9VI=",
+      "Fingerprint": "jc0jl8ngsi",
+      "Integrity": "g03/4nb6tyME/3Io9HAjLFtZMim4oDZIWgc18fZ3Htg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\flecha_cima_cheia.svg"
@@ -220,8 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kk1z5ecpsw",
-      "Integrity": "tA8TU94j9YBT7uEZaMrie0mHyuoLbDh2elkmyL0OWtE=",
+      "Fingerprint": "59w9snnuya",
+      "Integrity": "iVPJ+ktxZ7o/NgXedkTdjvHRh2PyK9MGQ9uOpGMbfVk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\flecha_cima_vazia.svg"
@@ -241,8 +262,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xzqevzd4mr",
-      "Integrity": "08RH6O7wnaeRguL0NoIqOQSw6o/FAsfhdXjfgBzrt4E=",
+      "Fingerprint": "1897ujd3ci",
+      "Integrity": "jzsNRQ/FHoDqSAT/bLqnRujZ5V5T0mMoney/O5ycn3c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Globe.svg"
@@ -262,8 +283,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "35drgo59b5",
-      "Integrity": "uYSIiYjZJlP7iFwaXCenCEt6Ii/uwVXeRJdjLRXwYcA=",
+      "Fingerprint": "a385mu8pfa",
+      "Integrity": "NoYqOD0z9AB/Vd9+R+4ZcA44tKFAjBqu6bj97mdU0GY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Instagram.svg"
@@ -283,8 +304,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "oaoe0t4252",
-      "Integrity": "gMZUuz3oHlJjm6HSGwW5phjWSmZCGkFiLqErD4eOYCY=",
+      "Fingerprint": "n7ls05rmsm",
+      "Integrity": "Y76NkxA4ItEcv5ZS/Egea8U3B9VU+hDSAcKMuYbB/cU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\lapis_editar.svg"
@@ -304,8 +325,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6u3aqvp1nv",
-      "Integrity": "7jc1XmsxlHRGboXxomS7wxtT6ht1gg85IQEGBShkDmQ=",
+      "Fingerprint": "cvjklsgkbh",
+      "Integrity": "mMbfEBTAcUwzeSVVnT3/EYUrYcy7ZgTkGgIKvy/+Ia0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\lixeira_deletar.svg"
@@ -409,8 +430,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cfhyhkv2lb",
-      "Integrity": "uH2B/VWeMvoLnA4jay+RutbBeJdrO3fn7BOEKu2WmTo=",
+      "Fingerprint": "i51uuksczw",
+      "Integrity": "qjAh3JK3783vXCSW83cYTiXRZzoe5ij7cKTjPodh22U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Twitter.svg"
@@ -430,8 +451,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "heysoirrkl",
-      "Integrity": "11IVBWEVjBXMQHULSj7KzwemhFBM/McIXCzEIoe/C5M=",
+      "Fingerprint": "a0djx5hflf",
+      "Integrity": "mo03JxywPGha3rJ6XtKipELyx3w/c4ao16deWxkX5to=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Whatsapp.svg"
@@ -587,7 +608,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 17:51:33 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -624,7 +645,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 17:51:33 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -669,7 +690,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 19:29:01 GMT"
+          "Value": "Wed, 14 May 2025 16:50:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -714,7 +735,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 19:29:01 GMT"
+          "Value": "Wed, 14 May 2025 16:50:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -725,6 +746,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-TbxzxkGc805lOoI7Ksp8CsZxZ4jso7qoEk0lHW/DvFM="
+        }
+      ]
+    },
+    {
+      "Route": "Controllers/UsuarioController.5ipweew5fc.cs",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\Controllers\\UsuarioController.cs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 17:06:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "Controllers/UsuarioController.cs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "Controllers/UsuarioController.cs",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\Controllers\\UsuarioController.cs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 17:06:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
         }
       ]
     },
@@ -751,7 +854,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 19:21:20 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -788,7 +891,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 19:21:20 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -833,7 +936,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 19:39:50 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -870,7 +973,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 19:39:50 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -915,7 +1018,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 16:38:27 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -952,7 +1055,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 16:38:27 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -975,7 +1078,7 @@
       ]
     },
     {
-      "Route": "img/chat.qcy5m6a5w2.svg",
+      "Route": "img/chat.7s0c91qy98.svg",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\img\\chat.svg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -985,7 +1088,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1490"
+          "Value": "1493"
         },
         {
           "Name": "Content-Type",
@@ -993,11 +1096,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Kss94cpjNNsz1cOlzwkGnak4iEW+l36xPWa1CI7ECHg=\""
+          "Value": "\"9/vOl8T0WQ8Mb4amPvcrTkwWd9cga7Nl+hZcIDwjMRU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:18 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1007,7 +1110,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qcy5m6a5w2"
+          "Value": "7s0c91qy98"
         },
         {
           "Name": "label",
@@ -1015,7 +1118,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Kss94cpjNNsz1cOlzwkGnak4iEW+l36xPWa1CI7ECHg="
+          "Value": "sha256-9/vOl8T0WQ8Mb4amPvcrTkwWd9cga7Nl+hZcIDwjMRU="
         }
       ]
     },
@@ -1030,7 +1133,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1490"
+          "Value": "1493"
         },
         {
           "Name": "Content-Type",
@@ -1038,11 +1141,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Kss94cpjNNsz1cOlzwkGnak4iEW+l36xPWa1CI7ECHg=\""
+          "Value": "\"9/vOl8T0WQ8Mb4amPvcrTkwWd9cga7Nl+hZcIDwjMRU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:18 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1052,12 +1155,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Kss94cpjNNsz1cOlzwkGnak4iEW+l36xPWa1CI7ECHg="
+          "Value": "sha256-9/vOl8T0WQ8Mb4amPvcrTkwWd9cga7Nl+hZcIDwjMRU="
         }
       ]
     },
     {
-      "Route": "img/flecha_baixo_cheia.bovgxzafeh.svg",
+      "Route": "img/flecha_baixo_cheia.8qkjmlj21l.svg",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\img\\flecha_baixo_cheia.svg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1067,7 +1170,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "810"
+          "Value": "813"
         },
         {
           "Name": "Content-Type",
@@ -1075,11 +1178,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"W5FcgQ+ew2Uhni4JYNqc4kA0y2Yv/g/vOsTALoKh5hY=\""
+          "Value": "\"UBa/jynRh1T8dzuZjcMQHYoKwA0vz4FqiUDwVDPw9IY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:18 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1089,7 +1192,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bovgxzafeh"
+          "Value": "8qkjmlj21l"
         },
         {
           "Name": "label",
@@ -1097,7 +1200,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-W5FcgQ+ew2Uhni4JYNqc4kA0y2Yv/g/vOsTALoKh5hY="
+          "Value": "sha256-UBa/jynRh1T8dzuZjcMQHYoKwA0vz4FqiUDwVDPw9IY="
         }
       ]
     },
@@ -1112,7 +1215,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "810"
+          "Value": "813"
         },
         {
           "Name": "Content-Type",
@@ -1120,11 +1223,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"W5FcgQ+ew2Uhni4JYNqc4kA0y2Yv/g/vOsTALoKh5hY=\""
+          "Value": "\"UBa/jynRh1T8dzuZjcMQHYoKwA0vz4FqiUDwVDPw9IY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:18 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1134,12 +1237,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-W5FcgQ+ew2Uhni4JYNqc4kA0y2Yv/g/vOsTALoKh5hY="
+          "Value": "sha256-UBa/jynRh1T8dzuZjcMQHYoKwA0vz4FqiUDwVDPw9IY="
         }
       ]
     },
     {
-      "Route": "img/flecha_baixo_vazia.dugdrejhck.svg",
+      "Route": "img/flecha_baixo_vazia.8dpy2ltvth.svg",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\img\\flecha_baixo_vazia.svg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1149,7 +1252,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "799"
+          "Value": "802"
         },
         {
           "Name": "Content-Type",
@@ -1157,11 +1260,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hfmO2JLv2QYtwKhXFGdQRqaPvWIBTBjhIvS6XX1UAkI=\""
+          "Value": "\"7PoazbzZLzlyn4sWyCvReK0h21fKrYyrZKhpMFpZWKM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:18 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1171,7 +1274,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dugdrejhck"
+          "Value": "8dpy2ltvth"
         },
         {
           "Name": "label",
@@ -1179,7 +1282,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hfmO2JLv2QYtwKhXFGdQRqaPvWIBTBjhIvS6XX1UAkI="
+          "Value": "sha256-7PoazbzZLzlyn4sWyCvReK0h21fKrYyrZKhpMFpZWKM="
         }
       ]
     },
@@ -1194,7 +1297,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "799"
+          "Value": "802"
         },
         {
           "Name": "Content-Type",
@@ -1202,11 +1305,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hfmO2JLv2QYtwKhXFGdQRqaPvWIBTBjhIvS6XX1UAkI=\""
+          "Value": "\"7PoazbzZLzlyn4sWyCvReK0h21fKrYyrZKhpMFpZWKM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:18 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1216,12 +1319,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hfmO2JLv2QYtwKhXFGdQRqaPvWIBTBjhIvS6XX1UAkI="
+          "Value": "sha256-7PoazbzZLzlyn4sWyCvReK0h21fKrYyrZKhpMFpZWKM="
         }
       ]
     },
     {
-      "Route": "img/flecha_cima_cheia.l9nsw604al.svg",
+      "Route": "img/flecha_cima_cheia.jc0jl8ngsi.svg",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\img\\flecha_cima_cheia.svg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1231,7 +1334,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "774"
+          "Value": "777"
         },
         {
           "Name": "Content-Type",
@@ -1239,11 +1342,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N6OASwLE+rP5MOQNNOsnRnk+bACRiBMdouR7JIRG9VI=\""
+          "Value": "\"g03/4nb6tyME/3Io9HAjLFtZMim4oDZIWgc18fZ3Htg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:18 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1253,7 +1356,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "l9nsw604al"
+          "Value": "jc0jl8ngsi"
         },
         {
           "Name": "label",
@@ -1261,7 +1364,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-N6OASwLE+rP5MOQNNOsnRnk+bACRiBMdouR7JIRG9VI="
+          "Value": "sha256-g03/4nb6tyME/3Io9HAjLFtZMim4oDZIWgc18fZ3Htg="
         }
       ]
     },
@@ -1276,7 +1379,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "774"
+          "Value": "777"
         },
         {
           "Name": "Content-Type",
@@ -1284,11 +1387,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N6OASwLE+rP5MOQNNOsnRnk+bACRiBMdouR7JIRG9VI=\""
+          "Value": "\"g03/4nb6tyME/3Io9HAjLFtZMim4oDZIWgc18fZ3Htg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:18 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1298,12 +1401,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-N6OASwLE+rP5MOQNNOsnRnk+bACRiBMdouR7JIRG9VI="
+          "Value": "sha256-g03/4nb6tyME/3Io9HAjLFtZMim4oDZIWgc18fZ3Htg="
         }
       ]
     },
     {
-      "Route": "img/flecha_cima_vazia.kk1z5ecpsw.svg",
+      "Route": "img/flecha_cima_vazia.59w9snnuya.svg",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\img\\flecha_cima_vazia.svg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1313,7 +1416,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "772"
+          "Value": "775"
         },
         {
           "Name": "Content-Type",
@@ -1321,11 +1424,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tA8TU94j9YBT7uEZaMrie0mHyuoLbDh2elkmyL0OWtE=\""
+          "Value": "\"iVPJ+ktxZ7o/NgXedkTdjvHRh2PyK9MGQ9uOpGMbfVk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:18 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1335,7 +1438,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kk1z5ecpsw"
+          "Value": "59w9snnuya"
         },
         {
           "Name": "label",
@@ -1343,7 +1446,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-tA8TU94j9YBT7uEZaMrie0mHyuoLbDh2elkmyL0OWtE="
+          "Value": "sha256-iVPJ+ktxZ7o/NgXedkTdjvHRh2PyK9MGQ9uOpGMbfVk="
         }
       ]
     },
@@ -1358,7 +1461,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "772"
+          "Value": "775"
         },
         {
           "Name": "Content-Type",
@@ -1366,11 +1469,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tA8TU94j9YBT7uEZaMrie0mHyuoLbDh2elkmyL0OWtE=\""
+          "Value": "\"iVPJ+ktxZ7o/NgXedkTdjvHRh2PyK9MGQ9uOpGMbfVk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:18 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1380,7 +1483,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tA8TU94j9YBT7uEZaMrie0mHyuoLbDh2elkmyL0OWtE="
+          "Value": "sha256-iVPJ+ktxZ7o/NgXedkTdjvHRh2PyK9MGQ9uOpGMbfVk="
+        }
+      ]
+    },
+    {
+      "Route": "img/Globe.1897ujd3ci.svg",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\img\\Globe.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2358"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jzsNRQ/FHoDqSAT/bLqnRujZ5V5T0mMoney/O5ycn3c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1897ujd3ci"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Globe.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jzsNRQ/FHoDqSAT/bLqnRujZ5V5T0mMoney/O5ycn3c="
         }
       ]
     },
@@ -1395,7 +1543,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2348"
+          "Value": "2358"
         },
         {
           "Name": "Content-Type",
@@ -1403,11 +1551,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"08RH6O7wnaeRguL0NoIqOQSw6o/FAsfhdXjfgBzrt4E=\""
+          "Value": "\"jzsNRQ/FHoDqSAT/bLqnRujZ5V5T0mMoney/O5ycn3c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:18 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1417,57 +1565,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-08RH6O7wnaeRguL0NoIqOQSw6o/FAsfhdXjfgBzrt4E="
+          "Value": "sha256-jzsNRQ/FHoDqSAT/bLqnRujZ5V5T0mMoney/O5ycn3c="
         }
       ]
     },
     {
-      "Route": "img/Globe.xzqevzd4mr.svg",
-      "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\img\\Globe.svg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2348"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/svg+xml"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"08RH6O7wnaeRguL0NoIqOQSw6o/FAsfhdXjfgBzrt4E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xzqevzd4mr"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Globe.svg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-08RH6O7wnaeRguL0NoIqOQSw6o/FAsfhdXjfgBzrt4E="
-        }
-      ]
-    },
-    {
-      "Route": "img/Instagram.35drgo59b5.svg",
+      "Route": "img/Instagram.a385mu8pfa.svg",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\img\\Instagram.svg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1477,7 +1580,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3778"
+          "Value": "3788"
         },
         {
           "Name": "Content-Type",
@@ -1485,11 +1588,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uYSIiYjZJlP7iFwaXCenCEt6Ii/uwVXeRJdjLRXwYcA=\""
+          "Value": "\"NoYqOD0z9AB/Vd9+R+4ZcA44tKFAjBqu6bj97mdU0GY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:19 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1499,7 +1602,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "35drgo59b5"
+          "Value": "a385mu8pfa"
         },
         {
           "Name": "label",
@@ -1507,7 +1610,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-uYSIiYjZJlP7iFwaXCenCEt6Ii/uwVXeRJdjLRXwYcA="
+          "Value": "sha256-NoYqOD0z9AB/Vd9+R+4ZcA44tKFAjBqu6bj97mdU0GY="
         }
       ]
     },
@@ -1522,7 +1625,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3778"
+          "Value": "3788"
         },
         {
           "Name": "Content-Type",
@@ -1530,11 +1633,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uYSIiYjZJlP7iFwaXCenCEt6Ii/uwVXeRJdjLRXwYcA=\""
+          "Value": "\"NoYqOD0z9AB/Vd9+R+4ZcA44tKFAjBqu6bj97mdU0GY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:19 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1544,12 +1647,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uYSIiYjZJlP7iFwaXCenCEt6Ii/uwVXeRJdjLRXwYcA="
+          "Value": "sha256-NoYqOD0z9AB/Vd9+R+4ZcA44tKFAjBqu6bj97mdU0GY="
         }
       ]
     },
     {
-      "Route": "img/lapis_editar.oaoe0t4252.svg",
+      "Route": "img/lapis_editar.n7ls05rmsm.svg",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\img\\lapis_editar.svg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1559,7 +1662,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1720"
+          "Value": "1723"
         },
         {
           "Name": "Content-Type",
@@ -1567,11 +1670,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gMZUuz3oHlJjm6HSGwW5phjWSmZCGkFiLqErD4eOYCY=\""
+          "Value": "\"Y76NkxA4ItEcv5ZS/Egea8U3B9VU+hDSAcKMuYbB/cU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:19 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1581,7 +1684,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "oaoe0t4252"
+          "Value": "n7ls05rmsm"
         },
         {
           "Name": "label",
@@ -1589,7 +1692,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gMZUuz3oHlJjm6HSGwW5phjWSmZCGkFiLqErD4eOYCY="
+          "Value": "sha256-Y76NkxA4ItEcv5ZS/Egea8U3B9VU+hDSAcKMuYbB/cU="
         }
       ]
     },
@@ -1604,7 +1707,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1720"
+          "Value": "1723"
         },
         {
           "Name": "Content-Type",
@@ -1612,11 +1715,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gMZUuz3oHlJjm6HSGwW5phjWSmZCGkFiLqErD4eOYCY=\""
+          "Value": "\"Y76NkxA4ItEcv5ZS/Egea8U3B9VU+hDSAcKMuYbB/cU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:19 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1626,12 +1729,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gMZUuz3oHlJjm6HSGwW5phjWSmZCGkFiLqErD4eOYCY="
+          "Value": "sha256-Y76NkxA4ItEcv5ZS/Egea8U3B9VU+hDSAcKMuYbB/cU="
         }
       ]
     },
     {
-      "Route": "img/lixeira_deletar.6u3aqvp1nv.svg",
+      "Route": "img/lixeira_deletar.cvjklsgkbh.svg",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\img\\lixeira_deletar.svg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1641,7 +1744,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2506"
+          "Value": "2510"
         },
         {
           "Name": "Content-Type",
@@ -1649,11 +1752,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7jc1XmsxlHRGboXxomS7wxtT6ht1gg85IQEGBShkDmQ=\""
+          "Value": "\"mMbfEBTAcUwzeSVVnT3/EYUrYcy7ZgTkGgIKvy/+Ia0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:19 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1663,7 +1766,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6u3aqvp1nv"
+          "Value": "cvjklsgkbh"
         },
         {
           "Name": "label",
@@ -1671,7 +1774,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-7jc1XmsxlHRGboXxomS7wxtT6ht1gg85IQEGBShkDmQ="
+          "Value": "sha256-mMbfEBTAcUwzeSVVnT3/EYUrYcy7ZgTkGgIKvy/+Ia0="
         }
       ]
     },
@@ -1686,7 +1789,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2506"
+          "Value": "2510"
         },
         {
           "Name": "Content-Type",
@@ -1694,11 +1797,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7jc1XmsxlHRGboXxomS7wxtT6ht1gg85IQEGBShkDmQ=\""
+          "Value": "\"mMbfEBTAcUwzeSVVnT3/EYUrYcy7ZgTkGgIKvy/+Ia0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:19 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1708,7 +1811,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7jc1XmsxlHRGboXxomS7wxtT6ht1gg85IQEGBShkDmQ="
+          "Value": "sha256-mMbfEBTAcUwzeSVVnT3/EYUrYcy7ZgTkGgIKvy/+Ia0="
         }
       ]
     },
@@ -1735,7 +1838,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:05:25 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1772,7 +1875,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:05:25 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1817,7 +1920,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:06:09 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1862,7 +1965,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:06:09 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1899,7 +2002,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:06:15 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1944,7 +2047,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:06:15 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1981,7 +2084,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:06:21 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2026,7 +2129,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:06:21 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2041,7 +2144,7 @@
       ]
     },
     {
-      "Route": "img/Twitter.cfhyhkv2lb.svg",
+      "Route": "img/Twitter.i51uuksczw.svg",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\img\\Twitter.svg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2051,7 +2154,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1236"
+          "Value": "1239"
         },
         {
           "Name": "Content-Type",
@@ -2059,11 +2162,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uH2B/VWeMvoLnA4jay+RutbBeJdrO3fn7BOEKu2WmTo=\""
+          "Value": "\"qjAh3JK3783vXCSW83cYTiXRZzoe5ij7cKTjPodh22U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:19 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2073,7 +2176,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cfhyhkv2lb"
+          "Value": "i51uuksczw"
         },
         {
           "Name": "label",
@@ -2081,7 +2184,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-uH2B/VWeMvoLnA4jay+RutbBeJdrO3fn7BOEKu2WmTo="
+          "Value": "sha256-qjAh3JK3783vXCSW83cYTiXRZzoe5ij7cKTjPodh22U="
         }
       ]
     },
@@ -2096,7 +2199,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1236"
+          "Value": "1239"
         },
         {
           "Name": "Content-Type",
@@ -2104,11 +2207,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uH2B/VWeMvoLnA4jay+RutbBeJdrO3fn7BOEKu2WmTo=\""
+          "Value": "\"qjAh3JK3783vXCSW83cYTiXRZzoe5ij7cKTjPodh22U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:19 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2118,12 +2221,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uH2B/VWeMvoLnA4jay+RutbBeJdrO3fn7BOEKu2WmTo="
+          "Value": "sha256-qjAh3JK3783vXCSW83cYTiXRZzoe5ij7cKTjPodh22U="
         }
       ]
     },
     {
-      "Route": "img/Whatsapp.heysoirrkl.svg",
+      "Route": "img/Whatsapp.a0djx5hflf.svg",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\img\\Whatsapp.svg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2133,7 +2236,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2212"
+          "Value": "2222"
         },
         {
           "Name": "Content-Type",
@@ -2141,11 +2244,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"11IVBWEVjBXMQHULSj7KzwemhFBM/McIXCzEIoe/C5M=\""
+          "Value": "\"mo03JxywPGha3rJ6XtKipELyx3w/c4ao16deWxkX5to=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:19 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2155,7 +2258,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "heysoirrkl"
+          "Value": "a0djx5hflf"
         },
         {
           "Name": "label",
@@ -2163,7 +2266,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-11IVBWEVjBXMQHULSj7KzwemhFBM/McIXCzEIoe/C5M="
+          "Value": "sha256-mo03JxywPGha3rJ6XtKipELyx3w/c4ao16deWxkX5to="
         }
       ]
     },
@@ -2178,7 +2281,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2212"
+          "Value": "2222"
         },
         {
           "Name": "Content-Type",
@@ -2186,11 +2289,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"11IVBWEVjBXMQHULSj7KzwemhFBM/McIXCzEIoe/C5M=\""
+          "Value": "\"mo03JxywPGha3rJ6XtKipELyx3w/c4ao16deWxkX5to=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:02:19 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2200,7 +2303,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-11IVBWEVjBXMQHULSj7KzwemhFBM/McIXCzEIoe/C5M="
+          "Value": "sha256-mo03JxywPGha3rJ6XtKipELyx3w/c4ao16deWxkX5to="
         }
       ]
     },
@@ -2227,7 +2330,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 17:56:53 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2272,7 +2375,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 17:56:53 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2309,7 +2412,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 18:13:30 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2346,7 +2449,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 18:13:30 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2391,7 +2494,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 18:00:32 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2436,7 +2539,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 18:00:32 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2473,7 +2576,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 17:25:25 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2510,7 +2613,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 17:25:25 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2555,7 +2658,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 17:25:41 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2600,7 +2703,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 17:25:41 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2637,7 +2740,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 17:24:19 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2674,7 +2777,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 17:24:19 GMT"
+          "Value": "Wed, 14 May 2025 16:25:32 GMT"
         },
         {
           "Name": "Cache-Control",

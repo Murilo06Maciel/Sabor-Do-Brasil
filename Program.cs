@@ -3,6 +3,7 @@ using Sabor_Do_Brasil;
 using Microsoft.AspNetCore.Cors;
 using BCrypt.Net;
 using System.Security.Cryptography;
+using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
