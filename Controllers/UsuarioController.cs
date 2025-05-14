@@ -5,11 +5,18 @@ using Sabor_Do_Brasil;
 [Route("api")]
 public class UsuarioController : ControllerBase
 {
+    private readonly AppDbContext _context;
+
+    public UsuarioController(AppDbContext context)
+    {
+        _context = context;
+    }
+
     [HttpPost("cadastrar")]
     public IActionResult Cadastrar([FromBody] Usuario usuario)
     {
-        // Aqui você salva o usuário no banco de dados
-        // Exemplo: _context.Usuarios.Add(usuario); _context.SaveChanges();
+        _context.Usuarios.Add(usuario); // Adiciona o usuário
+        _context.SaveChanges();         // Salva no banco
 
         return Ok(new { message = "Usuário cadastrado com sucesso!" });
     }
