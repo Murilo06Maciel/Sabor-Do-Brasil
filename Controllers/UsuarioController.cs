@@ -6,7 +6,6 @@ using Sabor_Do_Brasil;
 public class UsuarioController : ControllerBase
 {
     private readonly AppDbContext _context;
-
     public UsuarioController(AppDbContext context)
     {
         _context = context;
