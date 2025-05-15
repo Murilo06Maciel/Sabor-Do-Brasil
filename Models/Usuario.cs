@@ -1,8 +1,9 @@
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Identity;
 
 namespace Sabor_Do_Brasil
 {
-    public class Usuario
+    public class Usuario : IdentityUser
     {
         public int Id { get; set; }
         
