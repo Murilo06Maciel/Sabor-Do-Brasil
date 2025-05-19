@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Cors;
 using BCrypt.Net;
 using System.Security.Cryptography;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,6 +29,11 @@ builder.Logging.ClearProviders();
 builder.Logging.AddConsole(); // Log no console
 builder.Logging.AddDebug();   // Log no debug (Visual Studio Output)
 // builder.Logging.AddFile("Logs/myapp-{Date}.txt"); // Para logs em arquivo (instale o pacote Serilog.Extensions.Logging.File)
+
+// Configuração do Identity
+builder.Services.AddIdentity<Usuario, IdentityRole>()
+    .AddEntityFrameworkStores<AppDbContext>()
+    .AddDefaultTokenProviders();
 
 var app = builder.Build();
 
@@ -60,15 +66,6 @@ app.MapPost("/api/cadastrar", async (AppDbContext db, Usuario usuario) =>
             outputLength: 32
         )
     );
-
-    // Salva no banco
-    db.Usuarios.Add(usuario);
-    await db.SaveChangesAsync();
-
-    return Results.Ok(new { 
-        success = true,
-        message = "Usuário cadastrado com sucesso!" 
-    });
 })
 .RequireCors("AllowAll");
 
@@ -122,6 +119,24 @@ app.MapPost("/api/login", async (AppDbContext db, Usuario loginRequest) =>
             usuario.Email
         }
     });
+});
+
+app.MapPost("cadastrar", async (UserManager<Usuario> _userManager, [FromBody] CadastroViewModel model) =>
+{
+    var usuario = new Usuario
+    {
+        UserName = model.Email,
+        Email = model.Email,
+        Nome = model.Nome,
+        Nickname = model.Nickname
+    };
+
+    var result = await _userManager.CreateAsync(usuario, model.Senha);
+
+    if (result.Succeeded)
+        return Results.Ok(new { message = "Usuário cadastrado com sucesso!" });
+    else
+        return Results.BadRequest(result.Errors);
 });
 
 app.Run();

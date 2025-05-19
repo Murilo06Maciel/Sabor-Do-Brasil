@@ -18,11 +18,8 @@ namespace Sabor_Do_Brasil
 
             modelBuilder.Entity<Usuario>(entity =>
             {
-                entity.HasKey(e => e.Id);
                 entity.Property(e => e.Nome).IsRequired().HasMaxLength(255);
                 entity.HasIndex(e => e.Nome).IsUnique();
-                entity.Property(e => e.Email).IsRequired().HasMaxLength(100);
-                entity.HasIndex(e => e.Email).IsUnique();
                 entity.Property(e => e.Nickname).IsRequired().HasMaxLength(50);
                 entity.HasIndex(e => e.Nickname).IsUnique();
                 // Removido o mapeamento da propriedade Senha, pois Identity já gerencia a senha
