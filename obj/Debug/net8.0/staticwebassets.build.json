@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8+/rQil6WeTBODHdnMKp5TxZVIMbIpde/zzv7a1RrQc=",
+  "Hash": "+DpRwg50n8IC6QMD1/a2oJ453iEh9TGI5xnW0aVOZwg=",
   "Source": "Sabor-Do-Brasil",
   "BasePath": "_content/Sabor-Do-Brasil",
   "Mode": "Default",
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "959s7ibcod",
-      "Integrity": "TbxzxkGc805lOoI7Ksp8CsZxZ4jso7qoEk0lHW/DvFM=",
+      "Fingerprint": "gupl9r8z00",
+      "Integrity": "GKsQPgMYyDU2X2po9mpvIdwdCVEWDFOiCwXigetOj9E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\cadastro.html"
@@ -668,7 +668,7 @@
       ]
     },
     {
-      "Route": "cadastro.959s7ibcod.html",
+      "Route": "cadastro.gupl9r8z00.html",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\cadastro.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -678,7 +678,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2075"
+          "Value": "2342"
         },
         {
           "Name": "Content-Type",
@@ -686,11 +686,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TbxzxkGc805lOoI7Ksp8CsZxZ4jso7qoEk0lHW/DvFM=\""
+          "Value": "\"GKsQPgMYyDU2X2po9mpvIdwdCVEWDFOiCwXigetOj9E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 16:50:29 GMT"
+          "Value": "Wed, 14 May 2025 19:35:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -700,7 +700,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "959s7ibcod"
+          "Value": "gupl9r8z00"
         },
         {
           "Name": "label",
@@ -708,7 +708,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TbxzxkGc805lOoI7Ksp8CsZxZ4jso7qoEk0lHW/DvFM="
+          "Value": "sha256-GKsQPgMYyDU2X2po9mpvIdwdCVEWDFOiCwXigetOj9E="
         }
       ]
     },
@@ -723,7 +723,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2075"
+          "Value": "2342"
         },
         {
           "Name": "Content-Type",
@@ -731,11 +731,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TbxzxkGc805lOoI7Ksp8CsZxZ4jso7qoEk0lHW/DvFM=\""
+          "Value": "\"GKsQPgMYyDU2X2po9mpvIdwdCVEWDFOiCwXigetOj9E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 16:50:29 GMT"
+          "Value": "Wed, 14 May 2025 19:35:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -745,7 +745,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TbxzxkGc805lOoI7Ksp8CsZxZ4jso7qoEk0lHW/DvFM="
+          "Value": "sha256-GKsQPgMYyDU2X2po9mpvIdwdCVEWDFOiCwXigetOj9E="
         }
       ]
     },

@@ -12,17 +12,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lx1kj1qnjv"},{"Name":"integrity","Value":"sha256-N8KhnRSD0MeFvBlOfkK9o/XUyRHBb3i\u002Bj22xh8bCZDY="},{"Name":"label","Value":"_content/Sabor-Do-Brasil/alterar usu\u00E1rio.html"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4568"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022N8KhnRSD0MeFvBlOfkK9o/XUyRHBb3i\u002Bj22xh8bCZDY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 16:25:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Sabor-Do-Brasil/cadastro.959s7ibcod.html">
+    <StaticWebAssetEndpoint Include="_content/Sabor-Do-Brasil/cadastro.gupl9r8z00.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cadastro.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"959s7ibcod"},{"Name":"integrity","Value":"sha256-TbxzxkGc805lOoI7Ksp8CsZxZ4jso7qoEk0lHW/DvFM="},{"Name":"label","Value":"_content/Sabor-Do-Brasil/cadastro.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2075"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022TbxzxkGc805lOoI7Ksp8CsZxZ4jso7qoEk0lHW/DvFM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 16:50:29 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gupl9r8z00"},{"Name":"integrity","Value":"sha256-GKsQPgMYyDU2X2po9mpvIdwdCVEWDFOiCwXigetOj9E="},{"Name":"label","Value":"_content/Sabor-Do-Brasil/cadastro.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2342"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022GKsQPgMYyDU2X2po9mpvIdwdCVEWDFOiCwXigetOj9E=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 19:35:55 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Sabor-Do-Brasil/cadastro.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cadastro.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-TbxzxkGc805lOoI7Ksp8CsZxZ4jso7qoEk0lHW/DvFM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2075"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022TbxzxkGc805lOoI7Ksp8CsZxZ4jso7qoEk0lHW/DvFM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 16:50:29 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GKsQPgMYyDU2X2po9mpvIdwdCVEWDFOiCwXigetOj9E="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2342"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022GKsQPgMYyDU2X2po9mpvIdwdCVEWDFOiCwXigetOj9E=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 19:35:55 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Sabor-Do-Brasil/Controllers/UsuarioController.5ipweew5fc.cs">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Controllers\UsuarioController.cs'))</AssetFile>

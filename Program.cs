@@ -38,7 +38,7 @@ app.UseDefaultFiles();
 app.UseStaticFiles();
 
 // Endpoint de cadastro usando Identity (correto)
-app.MapPost("/api/cadastrar", async (UserManager<Usuario> _userManager, [FromBody] CadastroViewModel model) =>
+app.MapPost("/api/cadastrar", async (UserManager<Usuario> _userManager, CadastroViewModel model) =>
 {
     var usuario = new Usuario
     {
