@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
             likes++;
             likesSpan.textContent = likes;
             interacao = 'like';
+            atualizarTotais();
         });
 
         dislikeBtn.addEventListener('click', () => {
@@ -36,6 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
             dislikes++;
             dislikesSpan.textContent = dislikes;
             interacao = 'dislike';
+            atualizarTotais();
         });
 
         chatBtn.addEventListener('click', () => {
@@ -54,4 +56,20 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     });
+
+    function atualizarTotais() {
+        let totalLikes = 0;
+        let totalDislikes = 0;
+
+        document.querySelectorAll('.publicacao').forEach(pub => {
+            totalLikes += parseInt(pub.querySelector('.likes').textContent) || 0;
+            totalDislikes += parseInt(pub.querySelector('.dislikes').textContent) || 0;
+        });
+
+        document.getElementById('total-likes').textContent = totalLikes;
+        document.getElementById('total-dislikes').textContent = totalDislikes;
+    }
+
+    // Atualiza ao carregar a página
+    document.addEventListener('DOMContentLoaded', atualizarTotais);
 });
