@@ -35,4 +35,28 @@ public class UsuarioController : ControllerBase
         else
             return BadRequest(result.Errors);
     }
+
+    [HttpPost("login")]
+    public async Task<IActionResult> Login([FromBody] LoginRequest login)
+    {
+        // Procura o usuário pelo nickname
+        var usuario = await _userManager.FindByNameAsync(login.Nickname);
+        if (usuario == null)
+            return Unauthorized(new { message = "Usuário não encontrado." });
+
+        // Verifica a senha
+        var senhaCorreta = await _userManager.CheckPasswordAsync(usuario, login.Senha);
+        if (!senhaCorreta)
+            return Unauthorized(new { message = "Senha incorreta." });
+
+        // Retorna dados do usuário (ajuste conforme necessário)
+        return Ok(new { nickname = usuario.Nickname, nome = usuario.Nome });
+    }
+
+    // Classe auxiliar para receber o login
+    public class LoginRequest
+    {
+        public string Nickname { get; set; }
+        public string Senha { get; set; }
+    }
 }
