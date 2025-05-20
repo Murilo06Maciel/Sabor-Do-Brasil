@@ -102,83 +102,73 @@ body {
     color: #555;
 }
 
+/* Estilo para o container de comentários */
 .comentario-container {
-    margin-top: 20px;
-    padding: 15px;
-    background-color: #E8ECEF;
-    border-radius: 10px;
+    background: #fff8f0;
+    border: 1px solid #ffd6b0;
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px rgba(217,112,20,0.07);
 }
 
-.input-comentario {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px; /* Espaço maior entre o botão e os comentários */
+/* Estilo para o campo de input e botão */
+.comentario-container input[type="text"] {
+    width: 70%;
+    padding: 6px;
+    border: 1px solid #d97014;
+    border-radius: 4px;
+    margin-right: 6px;
 }
 
-.comentario-container input {
-    flex-grow: 1;
-    padding: 10px;
-    border: 1px solid #D97014;
-    border-radius: 5px;
-}
-
-.comentario-container button {
-    background-color: #D97014;
-    color: white;
-    padding: 8px 15px;
+.comentario-container .btn-comentar {
+    background: #d97014;
+    color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
+    padding: 6px 12px;
     cursor: pointer;
+    transition: background 0.2s;
 }
 
+.comentario-container .btn-comentar:hover {
+    background: #b85c0a;
+}
+
+/* Lista de comentários */
 .comentarios-lista {
-    max-height: 200px;
+    margin-top: 10px;
+    max-height: 120px;
     overflow-y: auto;
 }
 
-.comentario-item {
+/* Cada comentário individual */
+.comentarios-lista .comentario {
+    background: #ffe5c7;
+    border-radius: 4px;
+    padding: 6px 10px;
+    margin-bottom: 6px;
+    font-size: 0.98em;
+    color: #6b3a0a;
+    box-shadow: 0 1px 2px rgba(217,112,20,0.05);
+}
+
+.login {
+    position: fixed;
+    top: 20px;
+    right: 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px solid #D97014;
+    gap: 10px;
 }
 
-.comentario-item p {
-    margin: 0;
-    flex-grow: 1;
-    color: #555;
-}
-
-.comentario-item img {
-    width: 20px;
-    height: 20px;
+#btn-login, #btn-ir-cadastro, #btn-cadastrar-pet, #btn-minhas-publicacoes, #btn-voltar-inicial {
+    background-color: #D97014;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
     cursor: pointer;
-    margin-left: 10px;
-}
-
-.comentario-item .editar {
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%); /* #FFFFFF */
-}
-
-.comentario-item .excluir {
-    filter: invert(0%) sepia(100%) saturate(7500%) hue-rotate(0deg) brightness(100%) contrast(100%); /* #FF0000 */
-}
-
-/* Estilos para botões de Editar e Excluir na publicação */
-.publicacao .editar-publicacao, .publicacao .excluir-publicacao {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    margin-left: 10px;
-}
-
-.publicacao .editar-publicacao {
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%); /* Branco */
-}
-
-.publicacao .excluir-publicacao {
-    filter: invert(0%) sepia(100%) saturate(7500%) hue-rotate(0deg) brightness(100%) contrast(100%); /* Vermelho */
+    font-weight: bold;
 }
 
 .modal-excluir {
@@ -225,24 +215,6 @@ body {
     background-color: transparent;
     border: 1px solid #D97014;
     color: #D97014;
-}
-
-.login {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    display: flex;
-    gap: 10px;
-}
-
-#btn-login, #btn-ir-cadastro, #btn-cadastrar-pet {
-    background-color: #D97014;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-weight: bold;
 }
 
 .modal-login, .modal-cadastrar-pet, .modal-editar-pet {
