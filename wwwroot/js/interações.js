@@ -72,4 +72,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Atualiza ao carregar a página
     document.addEventListener('DOMContentLoaded', atualizarTotais);
+
+    document.querySelectorAll('.btn-comentar').forEach((btn) => {
+        btn.addEventListener('click', function () {
+            const container = btn.closest('.comentario-container');
+            const input = container.querySelector('input');
+            const lista = container.querySelector('.comentarios-lista');
+            const comentario = input.value.trim();
+
+            if (comentario) {
+                // Recupera o nome do usuário logado do localStorage
+                const usuario = localStorage.getItem('usuarioLogado') || 'Anônimo';
+
+                // Cria o elemento do comentário com nome do usuário
+                const divComentario = document.createElement('div');
+                divComentario.innerHTML = `<strong>${usuario}</strong><br>${comentario}`;
+                lista.appendChild(divComentario);
+
+                input.value = '';
+            }
+        });
+    });
 });
