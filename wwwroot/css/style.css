@@ -40,7 +40,7 @@ body {
 }
 
 .principal {
-    margin-left: 270px;
+    margin-left: 320px; /* aumenta o espaço à esquerda */
     flex-grow: 1;
     padding: 40px;
     border: 1px solid #C2BEBE;
@@ -137,8 +137,8 @@ body {
 
 /* Lista de comentários */
 .comentarios-lista {
-    margin-top: 10px;
-    max-height: 120px;
+    margin-top: 30px;
+    max-height: 240px; /* valor aproximado para 4 comentários */
     overflow-y: auto;
 }
 
@@ -158,7 +158,7 @@ body {
     border: 1px solid #000000;
     border-radius: 8px;
     padding: 8px 12px;
-    margin: 6px 0;
+    margin: 20px 0; /* aumenta a distância entre os comentários */
 }
 .comentario-usuario {
     color: #000;
