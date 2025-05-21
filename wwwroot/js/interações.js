@@ -57,13 +57,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 const divComentario = document.createElement('div');
                 divComentario.className = "comentario-item";
 
-                // Pega o horário atual no formato HH:mm:ss
+                // Pega o horário e a data atual no formato DD/MM/YYYY HH:mm:ss
                 const agora = new Date();
+                const data = agora.toLocaleDateString('pt-BR');
                 const horario = agora.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
 
                 divComentario.innerHTML = `
                     <span class="comentario-usuario">${usuario}</span>
-                    <span style="font-size:0.85em; color:#555; float:right;">${horario}</span><br>
+                    <span style="font-size:0.85em; color:#555; float:right;">${data} ${horario}</span><br>
                     <span class="comentario-texto">${texto}</span>
                 `;
                 comentariosLista.prepend(divComentario);
@@ -104,13 +105,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 const divComentario = document.createElement('div');
                 divComentario.className = "comentario-item";
 
-                // Pega o horário atual no formato HH:mm:ss
+                // Pega o horário e a data atual no formato DD/MM/YYYY HH:mm:ss
                 const agora = new Date();
+                const data = agora.toLocaleDateString('pt-BR');
                 const horario = agora.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
 
                 divComentario.innerHTML = `
                     <span class="comentario-usuario">${usuario}</span>
-                    <span style="font-size:0.85em; color:#555; float:right;">${horario}</span><br>
+                    <span style="font-size:0.85em; color:#555; float:right;">${data} ${horario}</span><br>
                     <span class="comentario-texto">${comentario}</span>
                 `;
                 lista.appendChild(divComentario);
