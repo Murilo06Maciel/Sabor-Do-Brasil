@@ -267,38 +267,38 @@
     <StaticWebAssetEndpoint Include="_content/Sabor-Do-Brasil/js/cadastro.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\cadastro.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6Z2WK7xtYKcMY1/4MJ0ibKDE7I7GiAZ3i9hlOkLHzFE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1788"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00226Z2WK7xtYKcMY1/4MJ0ibKDE7I7GiAZ3i9hlOkLHzFE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 17:50:08 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Mmj68K2wV\u002BY7Q8JAhjFVWzQfV5\u002BWY5nHYuxU3x4Kb7Y="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1807"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Mmj68K2wV\u002BY7Q8JAhjFVWzQfV5\u002BWY5nHYuxU3x4Kb7Y=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 19:18:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Sabor-Do-Brasil/js/cadastro.xuxi6na4ff.js">
+    <StaticWebAssetEndpoint Include="_content/Sabor-Do-Brasil/js/cadastro.mfgkcbgljp.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\cadastro.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xuxi6na4ff"},{"Name":"integrity","Value":"sha256-6Z2WK7xtYKcMY1/4MJ0ibKDE7I7GiAZ3i9hlOkLHzFE="},{"Name":"label","Value":"_content/Sabor-Do-Brasil/js/cadastro.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1788"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00226Z2WK7xtYKcMY1/4MJ0ibKDE7I7GiAZ3i9hlOkLHzFE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 17:50:08 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mfgkcbgljp"},{"Name":"integrity","Value":"sha256-Mmj68K2wV\u002BY7Q8JAhjFVWzQfV5\u002BWY5nHYuxU3x4Kb7Y="},{"Name":"label","Value":"_content/Sabor-Do-Brasil/js/cadastro.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1807"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Mmj68K2wV\u002BY7Q8JAhjFVWzQfV5\u002BWY5nHYuxU3x4Kb7Y=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 19:18:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Sabor-Do-Brasil/js/interações.evyg407hp9.js">
+    <StaticWebAssetEndpoint Include="_content/Sabor-Do-Brasil/js/interações.5bn3c4eh4k.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\interações.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"evyg407hp9"},{"Name":"integrity","Value":"sha256-ikiLduqtqsl9w5nOjTMfPFq5AyiXVyJXyGDHN5wBGxY="},{"Name":"label","Value":"_content/Sabor-Do-Brasil/js/intera\u00E7\u00F5es.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5534"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ikiLduqtqsl9w5nOjTMfPFq5AyiXVyJXyGDHN5wBGxY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 18:26:13 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5bn3c4eh4k"},{"Name":"integrity","Value":"sha256-PytG\u002B1QmxqiklrNvU1U6yJgc\u002BZy12cddFe6WwyjYzs8="},{"Name":"label","Value":"_content/Sabor-Do-Brasil/js/intera\u00E7\u00F5es.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6433"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022PytG\u002B1QmxqiklrNvU1U6yJgc\u002BZy12cddFe6WwyjYzs8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 19:22:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Sabor-Do-Brasil/js/interações.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\interações.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ikiLduqtqsl9w5nOjTMfPFq5AyiXVyJXyGDHN5wBGxY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5534"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ikiLduqtqsl9w5nOjTMfPFq5AyiXVyJXyGDHN5wBGxY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 18:26:13 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PytG\u002B1QmxqiklrNvU1U6yJgc\u002BZy12cddFe6WwyjYzs8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6433"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022PytG\u002B1QmxqiklrNvU1U6yJgc\u002BZy12cddFe6WwyjYzs8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 19:22:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Sabor-Do-Brasil/js/login.gcoxg3mk5e.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\login.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gcoxg3mk5e"},{"Name":"integrity","Value":"sha256-gKq4QeAvKViXU43sjTvJZtk3bwZf0k18htgqn5TR2k0="},{"Name":"label","Value":"_content/Sabor-Do-Brasil/js/login.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1645"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022gKq4QeAvKViXU43sjTvJZtk3bwZf0k18htgqn5TR2k0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 19:16:55 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Sabor-Do-Brasil/js/login.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\login.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bU956cu19ztGs4NdjH72m/p5rBBw8Aem4kxvwJc1UZI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1429"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022bU956cu19ztGs4NdjH72m/p5rBBw8Aem4kxvwJc1UZI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 17:50:08 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Sabor-Do-Brasil/js/login.lihn3972i5.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\login.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lihn3972i5"},{"Name":"integrity","Value":"sha256-bU956cu19ztGs4NdjH72m/p5rBBw8Aem4kxvwJc1UZI="},{"Name":"label","Value":"_content/Sabor-Do-Brasil/js/login.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1429"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022bU956cu19ztGs4NdjH72m/p5rBBw8Aem4kxvwJc1UZI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 17:50:08 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gKq4QeAvKViXU43sjTvJZtk3bwZf0k18htgqn5TR2k0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1645"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022gKq4QeAvKViXU43sjTvJZtk3bwZf0k18htgqn5TR2k0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 19:16:55 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Sabor-Do-Brasil/js/main.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main.js'))</AssetFile>
@@ -316,13 +316,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\perfil.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eQKVYlxykVKnmYiSzLw5uUabRksBQre0rHFGtqAbGw4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"317"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022eQKVYlxykVKnmYiSzLw5uUabRksBQre0rHFGtqAbGw4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 17:50:08 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"317"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022eQKVYlxykVKnmYiSzLw5uUabRksBQre0rHFGtqAbGw4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 19:27:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Sabor-Do-Brasil/js/perfil.rvd9vcicsd.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\perfil.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rvd9vcicsd"},{"Name":"integrity","Value":"sha256-eQKVYlxykVKnmYiSzLw5uUabRksBQre0rHFGtqAbGw4="},{"Name":"label","Value":"_content/Sabor-Do-Brasil/js/perfil.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"317"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022eQKVYlxykVKnmYiSzLw5uUabRksBQre0rHFGtqAbGw4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 17:50:08 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"317"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022eQKVYlxykVKnmYiSzLw5uUabRksBQre0rHFGtqAbGw4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 19:27:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

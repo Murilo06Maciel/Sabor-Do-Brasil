@@ -408,8 +408,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xuxi6na4ff</Fingerprint>
-      <Integrity>6Z2WK7xtYKcMY1/4MJ0ibKDE7I7GiAZ3i9hlOkLHzFE=</Integrity>
+      <Fingerprint>mfgkcbgljp</Fingerprint>
+      <Integrity>Mmj68K2wV+Y7Q8JAhjFVWzQfV5+WY5nHYuxU3x4Kb7Y=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\cadastro.js'))</OriginalItemSpec>
@@ -426,8 +426,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>evyg407hp9</Fingerprint>
-      <Integrity>ikiLduqtqsl9w5nOjTMfPFq5AyiXVyJXyGDHN5wBGxY=</Integrity>
+      <Fingerprint>5bn3c4eh4k</Fingerprint>
+      <Integrity>PytG+1QmxqiklrNvU1U6yJgc+Zy12cddFe6WwyjYzs8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\interações.js'))</OriginalItemSpec>
@@ -444,8 +444,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lihn3972i5</Fingerprint>
-      <Integrity>bU956cu19ztGs4NdjH72m/p5rBBw8Aem4kxvwJc1UZI=</Integrity>
+      <Fingerprint>gcoxg3mk5e</Fingerprint>
+      <Integrity>gKq4QeAvKViXU43sjTvJZtk3bwZf0k18htgqn5TR2k0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\login.js'))</OriginalItemSpec>
