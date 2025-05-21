@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         try {
             // Envia os dados para o endpoint /api/cadastrar
-            const response = await fetch('/api/cadastrar', {
+            const response = await fetch('http://localhost:5120/api/usuario', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

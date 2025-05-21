@@ -44,16 +44,37 @@ document.addEventListener("DOMContentLoaded", function () {
             comentarioContainer.style.display = comentarioContainer.style.display === 'none' ? 'block' : 'none';
         });
 
-        btnComentar.addEventListener('click', () => {
+        btnComentar.addEventListener('click', async () => {
             const texto = inputComentario.value.trim();
             if (texto) {
+                const usuario = localStorage.getItem('usuarioLogado') || 'Anônimo';
+
+                // Envia o comentário para o backend
+                try {
+                    const response = await fetch('http://localhost:5120/api/comentario', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            usuario,
+                            texto,
+                            data: new Date().toISOString(),
+                            // Adicione aqui o id da publicação, se necessário
+                        })
+                    });
+
+                    if (!response.ok) throw new Error('Erro ao salvar comentário');
+
+                    // Se quiser, pode atualizar a lista de comentários aqui
+                } catch (error) {
+                    alert(error.message);
+                    return;
+                }
+
+                // Código para mostrar o comentário na tela (como já está)
                 comentarios.push(texto);
                 numComentariosSpan.textContent = comentarios.length;
 
                 // Recupera o nome do usuário logado do localStorage
-                const usuario = localStorage.getItem('usuarioLogado') || 'Anônimo';
-
-                // Cria o elemento do comentário com nome do usuário e estilização
                 const divComentario = document.createElement('div');
                 divComentario.className = "comentario-item";
 

@@ -23,14 +23,21 @@ document.addEventListener("DOMContentLoaded", function () {
         const nickname = document.getElementById("nickname").value.trim();
         const senha = document.getElementById("senha").value;
 
-        const usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
-        const usuario = usuarios.find(u => u.nickname === nickname && u.senha === senha);
-
-        if (usuario) {
+        fetch("http://localhost:5120/api/usuario/login", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ nickname, senha })
+        })
+        .then(response => {
+            if (!response.ok) throw new Error("Login inválido");
+            return response.json();
+        })
+        .then(usuario => {
             localStorage.setItem("usuarioLogado", JSON.stringify(usuario));
             location.reload();
-        } else {
+        })
+        .catch(() => {
             mensagemErro.textContent = "Nickname ou senha incorretos.";
-        }
+        });
     });
 });
