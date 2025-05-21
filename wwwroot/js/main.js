@@ -6,4 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
         perfilContainer.style.display = "block";
         document.querySelector(".login").style.display = "none";
     }
+
+    document.getElementById('btn-alterar-perfil').addEventListener('click', function() {
+        window.location.href = 'alterar_usuario.html';
+    });
 });

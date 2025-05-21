@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll('.publicacao').forEach(function(pub) {
+    document.querySelectorAll('.publicacao').forEach(function (pub) {
         const likeBtn = pub.querySelector('.like');
         const dislikeBtn = pub.querySelector('.dislike');
         const likesSpan = pub.querySelector('.likes');
@@ -49,9 +49,25 @@ document.addEventListener("DOMContentLoaded", function () {
             if (texto) {
                 comentarios.push(texto);
                 numComentariosSpan.textContent = comentarios.length;
-                const li = document.createElement('div');
-                li.textContent = texto;
-                comentariosLista.appendChild(li);
+
+                // Recupera o nome do usuário logado do localStorage
+                const usuario = localStorage.getItem('usuarioLogado') || 'Anônimo';
+
+                // Cria o elemento do comentário com nome do usuário e estilização
+                const divComentario = document.createElement('div');
+                divComentario.className = "comentario-item";
+
+                // Pega o horário atual no formato HH:mm:ss
+                const agora = new Date();
+                const horario = agora.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+
+                divComentario.innerHTML = `
+                    <span class="comentario-usuario">${usuario}</span>
+                    <span style="font-size:0.85em; color:#555; float:right;">${horario}</span><br>
+                    <span class="comentario-texto">${texto}</span>
+                `;
+                comentariosLista.prepend(divComentario);
+
                 inputComentario.value = '';
             }
         });
@@ -86,7 +102,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // Cria o elemento do comentário com nome do usuário
                 const divComentario = document.createElement('div');
-                divComentario.innerHTML = `<strong>${usuario}</strong><br>${comentario}`;
+                divComentario.className = "comentario-item";
+
+                // Pega o horário atual no formato HH:mm:ss
+                const agora = new Date();
+                const horario = agora.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+
+                divComentario.innerHTML = `
+                    <span class="comentario-usuario">${usuario}</span>
+                    <span style="font-size:0.85em; color:#555; float:right;">${horario}</span><br>
+                    <span class="comentario-texto">${comentario}</span>
+                `;
                 lista.appendChild(divComentario);
 
                 input.value = '';
