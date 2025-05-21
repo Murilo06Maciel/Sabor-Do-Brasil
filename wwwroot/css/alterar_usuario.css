@@ -1,15 +1,32 @@
-
-.container {
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: #f5f5f5;
+    font-family: sans-serif;
+    padding-bottom: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+}
+
+.container {
+    margin: auto;
+}
+
+.container {
+    max-width: 420px;
+    width: 100%;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 24px 24px 16px 24px;
 }
 
 header h2 {
-    font-size: 24px;
+    text-align: center;
+    margin-bottom: 18px;
     color: #D97014;
-    margin-bottom: 20px;
 }
 
 form {
@@ -18,39 +35,46 @@ form {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 500px;
+    max-width: 420px;
 }
 
 form label {
-    font-size: 16px;
-    margin-bottom: 5px;
     display: block;
-    color: #333;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #444;
 }
 
-form input[type="file"],
+form input[type="file"] {
+}
+
 form input[type="text"] {
     width: 100%;
-    padding: 10px;
-    border: 1px solid #D97014;
+    padding: 8px;
+    border: 2px solid #D97014;
     border-radius: 5px;
-    margin-bottom: 15px;
-    font-size: 14px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 1em;
 }
 
-form button {
-    background-color: #D97014;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
+form button[type="submit"] {
     width: 100%;
+    background: #D97014;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 0;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s;
 }
 
-form button:hover {
-    background-color: #c16312;
+form button[type="submit"]:hover {
+    background: #b85c0a;
 }
 
 /* Mensagens de sucesso e erro */
@@ -86,15 +110,28 @@ body {
 }
 
 footer {
-    display: flex;
-    justify-content: center;
+    width: 100%;
     background-color: #D97014;
     padding: 10px 0;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
 }
 
 footer p {
     color: white;
     font-size: 16px;
+    margin: 4px 0;
+}
+
+footer .social {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 8px 0;
 }
 
 #ln{
@@ -107,22 +144,10 @@ footer p {
 .cabecalho{
 	margin: 0 auto;
 	text-align: center;
-	height: 300px;
 	font-weight: bold;
-	margin-top: 52px;
+	margin-top: 24px; /* era 52px */
 	
 		
-}
-
-footer {
-    position: fixed;
-    bottom: 0; 
-    width: 100%;  
-    display: flex;
-    justify-content: space-around;
-    background-color: #D97014;
-    padding: 10px 0;
-    color: white; 
 }
 
 .social {
@@ -133,8 +158,55 @@ footer {
 body {
     padding-bottom: 60px; 
 }
-#in{
-    color: #c16312;
-    font-size: 10px;
+#in {
+    display: block;
+    margin-top: 18px;
+    color: #D97014;
+    text-decoration: underline;
+    font-size: 0.98em;
+}
+
+#mensagem-sucesso, #mensagem-erro {
+    text-align: center;
+    margin-top: 14px;
     font-weight: bold;
+}
+
+.upload-area {
+    border: 2px dashed #90caf9;
+    border-radius: 8px;
+    background: #f5faff;
+    padding: 28px 0;
+    text-align: center;
+    margin-bottom: 18px;
+    transition: border-color 0.2s;
+}
+
+.upload-area:hover {
+    border-color: #1976d2;
+}
+
+.upload-area label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    color: #1976d2;
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+.upload-area input[type="file"] {
+    display: none;
+}
+
+.upload-area .upload-icon {
+    font-size: 2.5em;
+    color: #90caf9;
+    margin-bottom: 8px;
+}
+
+.upload-area .upload-text {
+    color: #1976d2;
+    font-size: 1em;
 }

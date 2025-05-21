@@ -15,14 +15,21 @@
         <p id="logo">Sabor Brasil</p>
     </div>
 
-    <div class="container">
+    <!--<div class="container"> -->
         <header>
             <h2>Alterar usuário</h2>
         </header>
         <main>
+            
             <form id="form-alterar-perfil">
-                <label for="nova-foto">Nova Foto de Perfil:</label>
-                <input type="file" id="nova-foto" name="nova-foto" accept="image/*">
+                <div class="upload-area">
+                    <label for="novo-nickname">Nova foto de perfil:</label>
+                    <label for="nova-foto">
+                        <span class="upload-icon">&#8682;</span> <!-- ícone de upload (pode trocar por SVG se quiser) -->
+                        Adicione uma Imagem
+                        <input type="file" id="nova-foto" name="nova-foto" accept="image/*">
+                    </label>
+                </div>
 
                 <label for="novo-nickname">Novo Nickname:</label>
                 <input type="text" id="novo-nickname" name="novo-nickname" placeholder="Digite seu novo nickname">
@@ -36,10 +43,10 @@
             </div>
             <div id="mensagem-erro" style="display:none; color: red;">
                 <p>Ocorreu um erro. Tente novamente.</p>
-            </div>
+            <!--</div>-->
         </main>
-
-        <footer>
+    </div><br><br>
+        <footer>            
             <p>Food Network</p>
             <p class="social">
                 <img src="img/Instagram.svg" alt="Instagram" width="20px">
@@ -49,7 +56,8 @@
             </p>
             <p>Copyright-2024</p>
         </footer>
-    </div>
+    
+
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
