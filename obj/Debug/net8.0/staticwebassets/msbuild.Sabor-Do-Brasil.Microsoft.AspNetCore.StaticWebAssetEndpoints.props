@@ -276,17 +276,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mfgkcbgljp"},{"Name":"integrity","Value":"sha256-Mmj68K2wV\u002BY7Q8JAhjFVWzQfV5\u002BWY5nHYuxU3x4Kb7Y="},{"Name":"label","Value":"_content/Sabor-Do-Brasil/js/cadastro.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1807"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Mmj68K2wV\u002BY7Q8JAhjFVWzQfV5\u002BWY5nHYuxU3x4Kb7Y=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 19:18:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Sabor-Do-Brasil/js/interações.5bn3c4eh4k.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\interações.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5bn3c4eh4k"},{"Name":"integrity","Value":"sha256-PytG\u002B1QmxqiklrNvU1U6yJgc\u002BZy12cddFe6WwyjYzs8="},{"Name":"label","Value":"_content/Sabor-Do-Brasil/js/intera\u00E7\u00F5es.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6433"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022PytG\u002B1QmxqiklrNvU1U6yJgc\u002BZy12cddFe6WwyjYzs8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 19:22:39 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Sabor-Do-Brasil/js/interações.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\interações.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PytG\u002B1QmxqiklrNvU1U6yJgc\u002BZy12cddFe6WwyjYzs8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6433"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022PytG\u002B1QmxqiklrNvU1U6yJgc\u002BZy12cddFe6WwyjYzs8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 19:22:39 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-TV800O6Gpt7c3QLkFx63kl4MpRNyilnbpWsL\u002BxPVTjI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5285"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022TV800O6Gpt7c3QLkFx63kl4MpRNyilnbpWsL\u002BxPVTjI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 19:38:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Sabor-Do-Brasil/js/interações.nvk0veckqw.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\interações.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nvk0veckqw"},{"Name":"integrity","Value":"sha256-TV800O6Gpt7c3QLkFx63kl4MpRNyilnbpWsL\u002BxPVTjI="},{"Name":"label","Value":"_content/Sabor-Do-Brasil/js/intera\u00E7\u00F5es.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5285"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022TV800O6Gpt7c3QLkFx63kl4MpRNyilnbpWsL\u002BxPVTjI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 19:38:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Sabor-Do-Brasil/js/login.gcoxg3mk5e.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\login.js'))</AssetFile>

@@ -1889,51 +1889,6 @@
       ]
     },
     {
-      "Route": "js/interações.5bn3c4eh4k.js",
-      "AssetFile": "js/interações.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6433"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PytG+1QmxqiklrNvU1U6yJgc+Zy12cddFe6WwyjYzs8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 19:22:39 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5bn3c4eh4k"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-PytG+1QmxqiklrNvU1U6yJgc+Zy12cddFe6WwyjYzs8="
-        },
-        {
-          "Name": "label",
-          "Value": "js/interações.js"
-        }
-      ]
-    },
-    {
       "Route": "js/interações.js",
       "AssetFile": "js/interações.js",
       "Selectors": [],
@@ -1948,7 +1903,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6433"
+          "Value": "5285"
         },
         {
           "Name": "Content-Type",
@@ -1956,17 +1911,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PytG+1QmxqiklrNvU1U6yJgc+Zy12cddFe6WwyjYzs8=\""
+          "Value": "\"TV800O6Gpt7c3QLkFx63kl4MpRNyilnbpWsL+xPVTjI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 19:22:39 GMT"
+          "Value": "Wed, 21 May 2025 19:38:50 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PytG+1QmxqiklrNvU1U6yJgc+Zy12cddFe6WwyjYzs8="
+          "Value": "sha256-TV800O6Gpt7c3QLkFx63kl4MpRNyilnbpWsL+xPVTjI="
+        }
+      ]
+    },
+    {
+      "Route": "js/interações.nvk0veckqw.js",
+      "AssetFile": "js/interações.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5285"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TV800O6Gpt7c3QLkFx63kl4MpRNyilnbpWsL+xPVTjI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 19:38:50 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nvk0veckqw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TV800O6Gpt7c3QLkFx63kl4MpRNyilnbpWsL+xPVTjI="
+        },
+        {
+          "Name": "label",
+          "Value": "js/interações.js"
         }
       ]
     },

@@ -13,11 +13,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 // Configuração do CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", policy =>
+    options.AddDefaultPolicy(policy =>
     {
-        policy.AllowAnyOrigin()
-              .AllowAnyMethod()
-              .AllowAnyHeader();
+        policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
     });
 });
 
@@ -33,7 +31,7 @@ builder.Services.AddIdentity<Usuario, IdentityRole>()
 
 var app = builder.Build();
 
-app.UseCors("AllowAll");
+app.UseCors();
 app.UseDefaultFiles();
 app.UseStaticFiles();
 

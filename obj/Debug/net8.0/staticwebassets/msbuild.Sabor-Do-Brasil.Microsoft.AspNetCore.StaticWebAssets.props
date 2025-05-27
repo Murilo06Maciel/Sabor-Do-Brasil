@@ -426,8 +426,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5bn3c4eh4k</Fingerprint>
-      <Integrity>PytG+1QmxqiklrNvU1U6yJgc+Zy12cddFe6WwyjYzs8=</Integrity>
+      <Fingerprint>nvk0veckqw</Fingerprint>
+      <Integrity>TV800O6Gpt7c3QLkFx63kl4MpRNyilnbpWsL+xPVTjI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\interações.js'))</OriginalItemSpec>
