@@ -29,9 +29,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
                 body: JSON.stringify({
                     Nome: document.getElementById('nome').value,
-                    Nickname: document.getElementById('usuario').value,
+                    UserName: document.getElementById('usuario').value,
                     Email: document.getElementById('email').value,
-                    Senha: document.getElementById('senha').value
+                    Nickname: document.getElementById('usuario').value,
+                    PasswordHash: document.getElementById('senha').value
                 })
             });
 

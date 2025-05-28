@@ -65,4 +65,38 @@ public class UsuarioController : ControllerBase
         public string Nickname { get; set; }
         public string Senha { get; set; }
     }
+
+    [HttpGet("cadastro")]
+    public IActionResult Cadastro()
+    {
+        return View();
+    }
+
+    [HttpPost("cadastro")]
+    public async Task<IActionResult> Cadastro(CadastroRequest cadastro)
+    {
+        if (!ModelState.IsValid)
+            return View(cadastro);
+
+        var novoUsuario = new Usuario
+        {
+            UserName = cadastro.UserName,
+            Email = cadastro.Email,
+            Nome = cadastro.Nome,
+            Nickname = cadastro.Nickname
+        };
+
+        var result = await _userManager.CreateAsync(novoUsuario, cadastro.PasswordHash);
+
+        if (result.Succeeded)
+        {
+            ViewBag.Message = "Usuário cadastrado com sucesso!";
+            return View();
+        }
+        else
+        {
+            ViewBag.Message = string.Join("; ", result.Errors.Select(e => e.Description));
+            return View(cadastro);
+        }
+    }
 }

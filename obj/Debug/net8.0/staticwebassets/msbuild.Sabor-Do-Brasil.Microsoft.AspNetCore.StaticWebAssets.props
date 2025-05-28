@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>hdofm83z4x</Fingerprint>
-      <Integrity>2/AThsUTzs6aTRXXmjD4akb3aKJ/PmEDygXvEotTYJY=</Integrity>
+      <Fingerprint>4vizqjpfpd</Fingerprint>
+      <Integrity>wN920hMH72yWLtSNay0uDYFon0iS1fbMU9DAharLsbA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cadastro.html'))</OriginalItemSpec>
@@ -408,8 +408,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>w8pbm5ky5p</Fingerprint>
-      <Integrity>cOFDycOAQaXLBaq1oRaR2SCfFQ2I4k39IsBkDZlKeww=</Integrity>
+      <Fingerprint>mgspwcqqqi</Fingerprint>
+      <Integrity>qrMN1PCn3OaTN6NZAmV7WgP04JifydQr9crp9Yupkgk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\cadastro.js'))</OriginalItemSpec>
