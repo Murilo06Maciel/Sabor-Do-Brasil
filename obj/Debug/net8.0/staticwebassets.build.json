@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CEK9t5QNEfeekWz8HXa3HV9UwFu0hgqt0ZyrhcKWH+U=",
+  "Hash": "ouOjyDgNK803UBzYHJiT8aFxwYl9Z+CNgGXue+T5UMk=",
   "Source": "Sabor-Do-Brasil",
   "BasePath": "_content/Sabor-Do-Brasil",
   "Mode": "Default",
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "yqc14neb5n",
-      "Integrity": "ytbcm5/ezDF5u+F2A5XvvtdEnnKac1Xegaji7GR0Jxo=",
+      "Fingerprint": "hdofm83z4x",
+      "Integrity": "2/AThsUTzs6aTRXXmjD4akb3aKJ/PmEDygXvEotTYJY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\cadastro.html"
@@ -493,8 +493,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mfgkcbgljp",
-      "Integrity": "Mmj68K2wV+Y7Q8JAhjFVWzQfV5+WY5nHYuxU3x4Kb7Y=",
+      "Fingerprint": "w8pbm5ky5p",
+      "Integrity": "cOFDycOAQaXLBaq1oRaR2SCfFQ2I4k39IsBkDZlKeww=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\cadastro.js"
@@ -668,6 +668,51 @@
       ]
     },
     {
+      "Route": "cadastro.hdofm83z4x.html",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\cadastro.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3673"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2/AThsUTzs6aTRXXmjD4akb3aKJ/PmEDygXvEotTYJY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 17:06:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hdofm83z4x"
+        },
+        {
+          "Name": "label",
+          "Value": "cadastro.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2/AThsUTzs6aTRXXmjD4akb3aKJ/PmEDygXvEotTYJY="
+        }
+      ]
+    },
+    {
       "Route": "cadastro.html",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\cadastro.html",
       "Selectors": [],
@@ -678,7 +723,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3633"
+          "Value": "3673"
         },
         {
           "Name": "Content-Type",
@@ -686,11 +731,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ytbcm5/ezDF5u+F2A5XvvtdEnnKac1Xegaji7GR0Jxo=\""
+          "Value": "\"2/AThsUTzs6aTRXXmjD4akb3aKJ/PmEDygXvEotTYJY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 19:38:07 GMT"
+          "Value": "Wed, 28 May 2025 17:06:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -700,52 +745,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ytbcm5/ezDF5u+F2A5XvvtdEnnKac1Xegaji7GR0Jxo="
-        }
-      ]
-    },
-    {
-      "Route": "cadastro.yqc14neb5n.html",
-      "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\cadastro.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3633"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ytbcm5/ezDF5u+F2A5XvvtdEnnKac1Xegaji7GR0Jxo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 19:38:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "yqc14neb5n"
-        },
-        {
-          "Name": "label",
-          "Value": "cadastro.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ytbcm5/ezDF5u+F2A5XvvtdEnnKac1Xegaji7GR0Jxo="
+          "Value": "sha256-2/AThsUTzs6aTRXXmjD4akb3aKJ/PmEDygXvEotTYJY="
         }
       ]
     },
@@ -2400,7 +2400,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1807"
+          "Value": "2096"
         },
         {
           "Name": "Content-Type",
@@ -2408,11 +2408,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Mmj68K2wV+Y7Q8JAhjFVWzQfV5+WY5nHYuxU3x4Kb7Y=\""
+          "Value": "\"cOFDycOAQaXLBaq1oRaR2SCfFQ2I4k39IsBkDZlKeww=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 19:18:50 GMT"
+          "Value": "Wed, 28 May 2025 18:10:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2422,12 +2422,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Mmj68K2wV+Y7Q8JAhjFVWzQfV5+WY5nHYuxU3x4Kb7Y="
+          "Value": "sha256-cOFDycOAQaXLBaq1oRaR2SCfFQ2I4k39IsBkDZlKeww="
         }
       ]
     },
     {
-      "Route": "js/cadastro.mfgkcbgljp.js",
+      "Route": "js/cadastro.w8pbm5ky5p.js",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\wwwroot\\js\\cadastro.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2437,7 +2437,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1807"
+          "Value": "2096"
         },
         {
           "Name": "Content-Type",
@@ -2445,11 +2445,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Mmj68K2wV+Y7Q8JAhjFVWzQfV5+WY5nHYuxU3x4Kb7Y=\""
+          "Value": "\"cOFDycOAQaXLBaq1oRaR2SCfFQ2I4k39IsBkDZlKeww=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 19:18:50 GMT"
+          "Value": "Wed, 28 May 2025 18:10:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2459,7 +2459,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mfgkcbgljp"
+          "Value": "w8pbm5ky5p"
         },
         {
           "Name": "label",
@@ -2467,7 +2467,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Mmj68K2wV+Y7Q8JAhjFVWzQfV5+WY5nHYuxU3x4Kb7Y="
+          "Value": "sha256-cOFDycOAQaXLBaq1oRaR2SCfFQ2I4k39IsBkDZlKeww="
         }
       ]
     },

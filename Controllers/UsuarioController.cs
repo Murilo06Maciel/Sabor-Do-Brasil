@@ -14,26 +14,32 @@ public class UsuarioController : ControllerBase
         _userManager = userManager;
     }
 
-    [HttpPost("cadastrar")]
-    public async Task<IActionResult> Cadastrar([FromBody] Usuario usuario)
+    public class CadastroRequest
     {
-        // Receba a senha separadamente (por segurança)
-        var senha = usuario.PasswordHash; // ou ajuste para receber a senha corretamente
+        public string Nome { get; set; }
+        public string UserName { get; set; }
+        public string Email { get; set; }
+        public string Nickname { get; set; }
+        public string PasswordHash { get; set; } // Aqui vem a senha do frontend
+    }
 
+    [HttpPost("cadastrar")]
+    public async Task<IActionResult> Cadastrar([FromBody] CadastroRequest cadastro)
+    {
         var novoUsuario = new Usuario
         {
-            UserName = usuario.UserName,
-            Email = usuario.Email,
-            Nome = usuario.Nome,
-            Nickname = usuario.Nickname
+            UserName = cadastro.UserName,
+            Email = cadastro.Email,
+            Nome = cadastro.Nome,
+            Nickname = cadastro.Nickname
         };
 
-        var result = await _userManager.CreateAsync(novoUsuario, senha);
+        var result = await _userManager.CreateAsync(novoUsuario, cadastro.PasswordHash);
 
         if (result.Succeeded)
             return Ok(new { message = "Usuário cadastrado com sucesso!" });
         else
-            return BadRequest(result.Errors);
+            return BadRequest(new { message = string.Join("; ", result.Errors.Select(e => e.Description)) });
     }
 
     [HttpPost("login")]

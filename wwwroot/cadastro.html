@@ -37,7 +37,7 @@
                     <label for="senha" class="form-label">Senha:</label>
                     <input type="password" id="senha" name="senha" class="form-control" required>
                 </div>
-                <button type="submit" class="btn btn-primary w-100">Cadastrar</button>
+                <button type="submit" class="btn btn-primary w-100" id="btn-cadastrar">Cadastrar</button>
             </form>
         </main>
     </div>
@@ -66,7 +66,7 @@
             };
 
             try {
-                const response = await fetch("/api/cadastrar", {
+                const response = await fetch("http://localhost:5120/api/cadastrar", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify(dados)
