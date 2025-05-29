@@ -22,6 +22,9 @@ builder.Services.AddCors(options =>
         policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
     });
 });
+
+builder.Services.AddControllersWithViews();
+
 var app = builder.Build();
 app.UseCors();
 app.UseDefaultFiles();
@@ -46,6 +49,10 @@ app.MapPost("/api/cadastrar", async (UserManager<Usuario> _userManager, Cadastro
         return Results.BadRequest(result.Errors);
 })
 .RequireCors("AllowAll");
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 // Endpoint de login pode ser implementado com SignInManager (opcional)
 

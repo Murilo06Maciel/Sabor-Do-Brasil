@@ -4,8 +4,6 @@ using Sabor_Do_Brasil;
 using Sabor_Do_Brasil.Models;
 using System.Threading.Tasks;
 
-[ApiController]
-[Route("api")]
 public class UsuarioController : Controller
 {
     private readonly UserManager<Usuario> _userManager;
@@ -18,7 +16,7 @@ public class UsuarioController : Controller
     [HttpPost("cadastrar")]
     public async Task<IActionResult> Cadastrar([FromBody] CadastroRequest cadastro)
     {
-        var novoUsuario = new Usuario
+        var novoUsuario = new Usuario 
         {
             UserName = cadastro.UserName,
             Email = cadastro.Email,
@@ -58,27 +56,27 @@ public class UsuarioController : Controller
         public string Senha { get; set; }
     }
 
-    [HttpGet("cadastro")]
+    [HttpGet]
     public IActionResult Cadastro()
     {
         return View();
     }
 
-    [HttpPost("cadastro")]
+    [HttpPost]
     public async Task<IActionResult> Cadastro(CadastroRequest cadastro)
     {
         if (!ModelState.IsValid)
             return View(cadastro);
 
-        var novoUsuario = new Usuario
+        var usuario = new Usuario
         {
+            Nome = cadastro.Nome,
             UserName = cadastro.UserName,
             Email = cadastro.Email,
-            Nome = cadastro.Nome,
             Nickname = cadastro.Nickname
         };
 
-        var result = await _userManager.CreateAsync(novoUsuario, cadastro.PasswordHash);
+        var result = await _userManager.CreateAsync(usuario, cadastro.Senha);
 
         if (result.Succeeded)
         {
@@ -87,7 +85,7 @@ public class UsuarioController : Controller
         }
         else
         {
-            ViewBag.Message = string.Join("; ", result.Errors.Select(e => e.Description));
+            ViewBag.Message = "Erro: " + string.Join("; ", result.Errors.Select(e => e.Description));
             return View(cadastro);
         }
     }
