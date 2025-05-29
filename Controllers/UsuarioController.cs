@@ -1,26 +1,18 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Identity;
 using Sabor_Do_Brasil;
+using Sabor_Do_Brasil.Models;
 using System.Threading.Tasks;
 
 [ApiController]
 [Route("api")]
-public class UsuarioController : ControllerBase
+public class UsuarioController : Controller
 {
     private readonly UserManager<Usuario> _userManager;
 
     public UsuarioController(UserManager<Usuario> userManager)
     {
         _userManager = userManager;
-    }
-
-    public class CadastroRequest
-    {
-        public string Nome { get; set; }
-        public string UserName { get; set; }
-        public string Email { get; set; }
-        public string Nickname { get; set; }
-        public string PasswordHash { get; set; } // Aqui vem a senha do frontend
     }
 
     [HttpPost("cadastrar")]
