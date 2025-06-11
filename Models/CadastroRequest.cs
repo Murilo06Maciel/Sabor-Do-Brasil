@@ -6,7 +6,6 @@ namespace Sabor_Do_Brasil.Models
         public string UserName { get; set; }
         public string Email { get; set; }
         public string Nickname { get; set; }
-        public string PasswordHash { get; set; }
         public string Senha { get; set; }
     }
 }

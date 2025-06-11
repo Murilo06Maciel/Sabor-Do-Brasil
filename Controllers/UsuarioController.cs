@@ -24,7 +24,7 @@ public class UsuarioController : Controller
             Nickname = cadastro.Nickname
         };
 
-        var result = await _userManager.CreateAsync(novoUsuario, cadastro.PasswordHash);
+        var result = await _userManager.CreateAsync(novoUsuario, cadastro.Senha);
 
         if (result.Succeeded)
             return Ok(new { message = "Usuário cadastrado com sucesso!" });

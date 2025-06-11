@@ -12,8 +12,8 @@ using Sabor_Do_Brasil;
 namespace Sabor_Do_Brasil.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250529173304_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250611194126_InitialIdentityAndDomain")]
+    partial class InitialIdentityAndDomain
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -157,6 +157,112 @@ namespace Sabor_Do_Brasil.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Sabor_Do_Brasil.Models.Categoria", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Descricao")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categorias");
+                });
+
+            modelBuilder.Entity("Sabor_Do_Brasil.Models.Comentario", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("Data")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<int>("ReceitaId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Texto")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("UsuarioId")
+                        .IsRequired()
+                        .HasColumnType("varchar(255)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ReceitaId");
+
+                    b.HasIndex("UsuarioId");
+
+                    b.ToTable("Comentarios");
+                });
+
+            modelBuilder.Entity("Sabor_Do_Brasil.Models.Receita", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Descricao")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("ImagemUrl")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Ingredientes")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("ModoPreparo")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("UsuarioId")
+                        .IsRequired()
+                        .HasColumnType("varchar(255)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UsuarioId");
+
+                    b.ToTable("Receitas");
+                });
+
+            modelBuilder.Entity("Sabor_Do_Brasil.Models.ReceitaCategoria", b =>
+                {
+                    b.Property<int>("ReceitaId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CategoriaId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ReceitaId", "CategoriaId");
+
+                    b.HasIndex("CategoriaId");
+
+                    b.ToTable("ReceitaCategorias");
+                });
+
             modelBuilder.Entity("Sabor_Do_Brasil.Usuario", b =>
                 {
                     b.Property<string>("Id")
@@ -278,6 +384,67 @@ namespace Sabor_Do_Brasil.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Sabor_Do_Brasil.Models.Comentario", b =>
+                {
+                    b.HasOne("Sabor_Do_Brasil.Models.Receita", "Receita")
+                        .WithMany("Comentarios")
+                        .HasForeignKey("ReceitaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Sabor_Do_Brasil.Usuario", "Usuario")
+                        .WithMany()
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Receita");
+
+                    b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("Sabor_Do_Brasil.Models.Receita", b =>
+                {
+                    b.HasOne("Sabor_Do_Brasil.Usuario", "Usuario")
+                        .WithMany()
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("Sabor_Do_Brasil.Models.ReceitaCategoria", b =>
+                {
+                    b.HasOne("Sabor_Do_Brasil.Models.Categoria", "Categoria")
+                        .WithMany("ReceitaCategorias")
+                        .HasForeignKey("CategoriaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Sabor_Do_Brasil.Models.Receita", "Receita")
+                        .WithMany("ReceitaCategorias")
+                        .HasForeignKey("ReceitaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Categoria");
+
+                    b.Navigation("Receita");
+                });
+
+            modelBuilder.Entity("Sabor_Do_Brasil.Models.Categoria", b =>
+                {
+                    b.Navigation("ReceitaCategorias");
+                });
+
+            modelBuilder.Entity("Sabor_Do_Brasil.Models.Receita", b =>
+                {
+                    b.Navigation("Comentarios");
+
+                    b.Navigation("ReceitaCategorias");
                 });
 #pragma warning restore 612, 618
         }
