@@ -20,7 +20,7 @@
 
         <main class="principal">
             <h2 class="text-center mb-4">Cadastro</h2>
-            <form id="form-cadastro" class="mx-auto" style="max-width: 400px;">
+            <form id="form-cadastro" class="mx-auto" style="max-width: 400px;" enctype="multipart/form-data">
                 <div class="mb-3">
                     <label for="nome" class="form-label">Nome:</label>
                     <input type="text" id="nome" name="nome" class="form-control" required>
@@ -36,6 +36,14 @@
                 <div class="mb-3">
                     <label for="senha" class="form-label">Senha:</label>
                     <input type="password" id="senha" name="senha" class="form-control" required>
+                </div>
+                <div class="mb-3 upload-area">
+                    <label for="nova-foto">
+                        <div>Nova foto de perfil:</div>
+                        <span class="upload-icon">&#8682;</span>
+                        <div>Adicione uma Imagem</div>
+                        <input type="file" id="nova-foto" name="nova-foto" accept="image/*">
+                    </label>
                 </div>
                 <button type="submit" class="btn btn-primary w-100" id="btn-cadastrar">Cadastrar</button>
             </form>

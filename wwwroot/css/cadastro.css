@@ -67,3 +67,47 @@ footer {
 body {
     padding-bottom: 60px;
 }
+
+.upload-area {
+    border: 2px dashed #7ec0ee;
+    background: #f8fbff;
+    border-radius: 10px;
+    padding: 32px 0;
+    text-align: center;
+    color: #7ec0ee;
+    margin-bottom: 24px;
+    position: relative;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.upload-area:hover {
+    border-color: #3399ff;
+}
+
+.upload-area label {
+    cursor: pointer;
+    display: block;
+}
+
+.upload-area .upload-icon {
+    font-size: 36px;
+    display: block;
+    margin: 12px auto;
+    color: #7ec0ee;
+}
+
+.upload-area input[type="file"] {
+    display: none;
+}
+
+.upload-area span,
+.upload-area label[for="nova-foto"] {
+    color: #7ec0ee;
+    font-weight: 500;
+}
+
+.upload-area strong {
+    display: block;
+    margin-bottom: 8px;
+}
