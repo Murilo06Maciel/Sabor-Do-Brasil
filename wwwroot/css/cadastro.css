@@ -111,3 +111,14 @@ body {
     display: block;
     margin-bottom: 8px;
 }
+.botao-imagem {
+    display: block;
+    margin: 18px auto 0 auto;
+    color: #D97014;
+    text-decoration: underline;
+    font-size: 0.98em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
