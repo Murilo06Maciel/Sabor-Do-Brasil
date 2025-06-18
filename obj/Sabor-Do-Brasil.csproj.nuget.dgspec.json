@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\Sabor-Do-Brasil.csproj": {}
+    "C:\\Users\\Aluno\\OneDrive\\Documents\\MURILO MACIEL\\Sabor-Do-Brasil\\Sabor-Do-Brasil.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\Sabor-Do-Brasil.csproj": {
+    "C:\\Users\\Aluno\\OneDrive\\Documents\\MURILO MACIEL\\Sabor-Do-Brasil\\Sabor-Do-Brasil.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\Sabor-Do-Brasil.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno\\OneDrive\\Documents\\MURILO MACIEL\\Sabor-Do-Brasil\\Sabor-Do-Brasil.csproj",
         "projectName": "Sabor-Do-Brasil",
-        "projectPath": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\Sabor-Do-Brasil.csproj",
-        "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Sabor-Do-Brasil\\obj\\",
+        "projectPath": "C:\\Users\\Aluno\\OneDrive\\Documents\\MURILO MACIEL\\Sabor-Do-Brasil\\Sabor-Do-Brasil.csproj",
+        "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aluno\\OneDrive\\Documents\\MURILO MACIEL\\Sabor-Do-Brasil\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alunos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,8 +37,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -94,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.107/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
